@@ -1,0 +1,349 @@
+\documentclass[stu, 12pt, letterpaper, donotrepeattitle, floatsintext, natbib]{apa7}
+\usepackage[utf8]{inputenc}
+\usepackage{comment}
+\usepackage{marvosym}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[normalem]{ulem}
+\usepackage[spanish]{babel} 
+
+% Required package
+\usepackage{amsmath}
+\usepackage{xcolor}
+
+\selectlanguage{spanish}
+\useunder{\uline}{\ul}{}
+\newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\}
+
+% Portada
+\thispagestyle{empty}
+\title{\Large Calculo Diferencial e Integral}
+\author{Cristian Herrera}
+\affiliation{Instituto Superior Tecnológico Tena}
+\course{Calculo Diferencial e Integral}
+\professor{Ing. Libinton Lara}
+\duedate{2023 - IIP}
+\begin{document}
+\maketitle
+
+
+% Índices
+\pagenumbering{roman}
+    % Contenido
+\renewcommand\contentsname{\largeÍndice}
+\tableofcontents
+\setcounter{tocdepth}{2}
+\newpage
+    % Fíguras
+\renewcommand{\listfigurename}{\largeÍndice de fíguras}
+\listoffigures
+\newpage
+    % Tablas
+\renewcommand{\listtablename}{\largeÍndice de tablas}
+\listoftables
+\newpage
+
+% Cuerpo
+\pagenumbering{arabic}
+
+\section{Actividades en Clase}
+\subsection{Matrices y Determinantes} 
+
+\subsubsection{Que es una matriz?}
+Conjunto bidimencional de numeros o simbolos que sirven para describir y resolver sistemas de ecuaciones lineales.
+\begin{table}
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        Sistema de Ecuaciones & En Forma de Matriz \\ \hline
+        & $\quad x\quad y\quad i$ \\ 
+        $ f(x) =  \begin{cases} x + 3y = 7 \\ 5x - y = 3  \end{cases} $ 
+        & 
+        $A = \begin{pmatrix}
+            1 & 3 & 7 \\
+            5 & -1 & 3
+        \end{pmatrix}_{2\times3}$ \\[1cm]\hline
+        
+        & $\quad\quad\quad x\quad i\quad $ \\
+        $2x=4$ & $A = \begin{pmatrix} 2 & 4 \end{pmatrix}$ \\[0.8cm]\hline
+        
+        & $\quad\quad x\quad\quad y\quad\quad z\quad\quad i$ \\
+        $ f(x)=\begin{cases} 3x-5y+8z=10 \\ 2y-7z=-15 \end{cases} $ & 
+        $C=\begin{pmatrix}
+            3 & -5 & 8 & 10 \\ 
+            0 & 2 & -2 & -15
+        \end{pmatrix}$ \\[1cm]\hline
+    \end{tabular}
+\end{table}
+
+\subsubsection{Dimensiones de una matriz}
+$$
+A=\begin{pmatrix}
+a_{11} & a_{12} & a_{13} & a_{14}\\
+a_{21} & a_{22} & a_{23} & a_{24}\\
+\end{pmatrix}_{M\times N}
+$$\\
+\begin{small}
+\begin{center}
+$M= $Filas, $N= $Columnas
+\end{center}
+\end{small}
+
+Un elemento de una matriz se representa: {\Large $a_{ij}$}, donde {\Large $i$} representa las filas, y {\Large $j$} las columnas\\
+
+\subsubsection{Tipos de Matrices}
+\paragraph{Matriz Fila (Vector Fila)}
+Matriz formada por una sola fila.
+$$A=\begin{pmatrix} a_{11} & a_{12} & a_{13} & .... & a_{1n} \end{pmatrix}_{1\times n}$$
+\paragraph{Matriz Columna (Vector Columna)}
+Matriz formada por una sola columna.
+$$A=\begin{pmatrix} a_{11} \\ a_{21} \\ a_{31} \\ ... \\ ... \\ ... \\ a_{m1}\end{pmatrix}_{m\times1}$$
+\paragraph{Matriz Nula}
+Todos sus elementos son nulos
+$$A=\begin{pmatrix} 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \end{pmatrix}_{2\times4}$$
+\paragraph{Matriz Cuadrada}
+Tiene el mismo numero de filas y de columnas.
+
+\begin{table}
+\centering
+\begin{tabular}{cc}
+$
+A = \begin{pmatrix}
+    \color{red} a_{11} & a_{12} & a_{13} \\
+    a_{21} & \color{red} a_{22} & a_{23} \\
+    a_{31} & a_{32} & \color{red} a_{33} \\
+\end{pmatrix}_{3\times3}
+$
+&
+$
+B = \begin{pmatrix}
+    a_{11} & a_{12} & \color{blue} a_{13} \\
+    a_{21} & \color{blue} a_{22} & a_{23} \\
+    \color{blue} a_{31} & a_{32} & a_{33} \\
+\end{pmatrix}_{3\times3}
+$
+\end{tabular}
+\end{table}
+\subparagraph{Elementos básicos de una Matriz Cuadrada}
+\myparagraph{Diagonal Mayor}
+Formada por los elementos $\color{red} a_{11}$, $\color{red} a_{22}$, $\color{red} a_{33}$, $\color{red} \ldots$, $\color{red} a_{nn}$.
+\myparagraph{Diagonal Menor}
+Formada por los elementos {\Large $\color{blue} a_{ij}$} donde {\normalsize $\color{blue} i+j = n+1$}
+\myparagraph{Traza}
+Suma de los elementos de la diagonal principal.
+
+\begin{table}
+\centering
+\begin{tabular}{cc}
+$
+A=\begin{pmatrix}
+\color{red} -2 & 6 & 4 \\
+8 & \color{red} 12 & -9 \\
+15 & -6 & \color{red} -4
+\end{pmatrix}
+$ & traza: $-2 +12 -4 = 6$
+\end{tabular}
+\end{table}
+
+\subparagraph{Tipos básicos de matrices cuadradas}
+\myparagraph{Triangular Superior}
+Todos los elementos son ceros debajo de la diagonal principal.
+$$
+A=\begin{pmatrix}
+\color{gray} -2 & \color{gray} 6 & \color{gray} 4 \\
+0 & \color{gray} 12 & \color{gray} -9 \\
+0 & 0 & \color{gray} -4
+\end{pmatrix}
+$$
+\myparagraph{Triangular Inferior}
+Encima de la diagonal principal todos son ceros.
+$$
+A=\begin{pmatrix}
+\color{gray} -2 & 0 & 0 \\
+\color{gray} 8 & \color{gray} 12 & 0 \\
+\color{gray} 15 & \color{gray} -6 & \color{gray} -4
+\end{pmatrix}
+$$
+\myparagraph{Matriz Diagonal}
+Los elementos que no están en la diagonal principal son ceros, esta también es una matriz triangular superior y triangular inferior.
+$$
+A=\begin{pmatrix}
+\color{gray} -2 & \textbf{0} & \textbf{0} \\
+\textbf{0} & \color{gray} 12 & \textbf{0} \\
+\textbf{0} & \textbf{0} & \color{gray} -4
+\end{pmatrix}
+$$
+\myparagraph{Matriz identidad o unidad}
+Es una matriz diagonal, en la que todos los elementos de la diagonal principal son 1.
+\[
+A=\begin{bmatrix}
+\textbf{1} & 0 & 0 \\ 
+0 & \textbf{1} & 0 \\
+0 & 0 & \textbf{1}
+\end{bmatrix}
+\]
+\myparagraph{Matriz Escalar}
+Es una matriz diagonal, en la que todos los elementos de la diagonal principal son iguales.
+\[
+A=\begin{bmatrix}
+\textbf{5} & \color{gray} 0 & \color{gray} 0 \\ 
+ \color{gray} 0 & \textbf{5} & \color{gray} 0 \\
+ \color{gray}0 &  \color{gray} 0 & \textbf{5}
+\end{bmatrix}
+\]
+\subsubsection{Suma de Matrices}
+Se puede dar entre matrices del mismo orden, para realizar la suma se debe sumar cada elemento de una posición con otro elemento de una matriz de la misma posición.
+
+\begin{table}
+\centering
+\begin{tabular}{c}
+$
+A=\begin{pmatrix}
+a_{11} & a_{12} & a_{13} & a_{14}\\
+a_{21} & a_{22} & a_{23} & a_{24}\\
+\end{pmatrix}_{2\times4}
+$  $
+B=\begin{pmatrix}
+b_{11} & b_{12} & b_{13} & b_{14}\\
+b_{21} & b_{22} & b_{23} & b_{24}\\
+\end{pmatrix}_{2\times4}
+$\\ \\ $
+A+B=\begin{pmatrix}
+(a_{11} + b_{11})_{11} & (a_{12} + b_{12})_{12} & (a_{13} + b_{13})_{13} & (a_{14} + b_{14})_{14}\\
+(a_{21} + b_{21})_{21} & (a_{22} + b_{22})_{22} & (a_{23} + b_{23})_{23} & (a_{24} + b_{24})_{24}\\
+\end{pmatrix}_{2\times4}
+$
+
+\end{tabular}
+\end{table}
+
+\subsubsection{Resta de Matrices}
+Se puede dar entre matrices del mismo orden, para realizar la resta se debe restar cada elemento de una posición con otro elemento de una matriz de la misma posición.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c}
+$
+A=\begin{pmatrix}
+a_{11} & a_{12} & a_{13} & a_{14}\\
+a_{21} & a_{22} & a_{23} & a_{24}\\
+\end{pmatrix}_{2\times4}
+$  $
+B=\begin{pmatrix}
+b_{11} & b_{12} & b_{13} & b_{14}\\
+b_{21} & b_{22} & b_{23} & b_{24}\\
+\end{pmatrix}_{2\times4}
+$\\ \\ $
+A-B=\begin{pmatrix}
+(a_{11} - b_{11})_{11} & (a_{12} - b_{12})_{12} & (a_{13} - b_{13})_{13} & (a_{14} - b_{14})_{14}\\
+(a_{21} - b_{21})_{21} & (a_{22} - b_{22})_{22} & (a_{23} - b_{23})_{23} & (a_{24} - b_{24})_{24}\\
+\end{pmatrix}_{2\times4}
+$
+
+\end{tabular}
+\end{table}
+
+
+
+\subsubsection{Producto De Una Matriz Por Un Escalar/Real}
+La multiplicación de una matriz por un escalar se realiza multiplicando el escalar por cada elemento de la matriz.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{ccc}
+$
+\dfrac{3}{2} \times \begin{pmatrix}
+2 & -4\\
+1 & -8\\
+\end{pmatrix}_{2\times2}
+$  & $=$ & $
+\begin{pmatrix}
+3 & -6 \\
+\frac{3}{2} & -12\\
+\end{pmatrix}_{2\times2}
+$\\ 
+
+\end{tabular}
+\end{table}
+
+
+\subsubsection{Multiplicación de Matrices}
+Es posible si el numero de \textbf{columnas} de la primera matriz es el mismo al numero de \textbf{filas} de la segunda matriz.
+Para multiplicar dos matrices cuadradas, calcula el producto de filas de la primera matriz con columnas de la segunda matriz y suma los resultados.
+$$
+A=\begin{pmatrix}
+1 & 3 \\ 4 & 5
+\end{pmatrix}_{2\times2}
+\qquad
+B=\begin{pmatrix}
+6 & 7 \\ 8 & 9
+\end{pmatrix}_{2\times2}
+$$\\
+
+¿Es posible multiplicar la matriz A por la matriz B?
+$${\textit{2}\times\textbf{2}} \qquad {\textbf{2}\times\textit{2}}$$\\
+
+Si es posible ya que el numero de columnas de la primera fila es el mismo que el numero de filas de la segunda, $\textbf{2}$ = $\textbf{2}$, ademas el resultado de $A\times B$ sera igual a una matriz de $\textit{2} \times \textit{2}$.
+\begin{center}
+\includegraphics[scale=0.5]{matrix.png} 
+\end{center}
+
+\[
+\begin{bmatrix}
+   \color{blue} 2 & \color{blue} 3 \\
+    \color{red} 4 & \color{red} 5
+\end{bmatrix}
+\times
+\begin{bmatrix}
+    \color{green} 6 & \color{violet} 7 \\
+    \color{green} 8 & \color{violet} 9
+\end{bmatrix}
+=
+\begin{bmatrix}
+    (\color{blue} 2 \textcolor{black}{\,\cdot\,} \color{green} 6 \textcolor{black}{\,+\,} \color{blue} 3 \textcolor{black}{\,\cdot\,} \textcolor{green}{8} \textcolor{black}{)} 
+    &
+     (\color{blue} 2 \textcolor{black}{\,\cdot\,} \color{violet} 7 \textcolor{black}{\,+\,} \color{blue} 3 \textcolor{black}{\,\cdot\,} \textcolor{violet}{9} \textcolor{black}{)} \\
+          
+    (\color{red} 4 \textcolor{black}{\,\cdot\,} \color{green} 6 \textcolor{black}{\,+\,} \color{red} 5 \textcolor{black}{\,\cdot\,} \textcolor{green}{8} \textcolor{black}{)}
+    &    
+    (\color{red} 4 \textcolor{black}{\,\cdot\,} \color{violet} 7 \textcolor{black}{\,+\,} \color{red} 5 \textcolor{black}{\,\cdot\,} \textcolor{violet}{9} \textcolor{black}{)}
+\end{bmatrix}
+= AB=
+\begin{bmatrix}
+    36 & 41 \\
+    68 & 77
+\end{bmatrix}_{2\times2}
+\]
+
+
+
+\subsubsection{Determinantes}
+El determinante de una matriz solo existe en matrices cuadradas.
+\paragraph{Determinante 2x2}
+Se calcula restando el producto de los números que conforman la diagonal secundaria al producto de los números que conforman la diagonal principal. 
+\[
+A=\begin{pmatrix}
+b & c \\ d & e
+\end{pmatrix}
+\qquad
+\qquad
+|A|= (be) - (cd)
+\]
+\paragraph{Determinante 3x3 - Regla de Sarrus}
+Las primeras columnas o columnas de la matriz se repiten al final y se realiza una multiplicación de diagonales para obtener el determinante.\\
+\begin{table}
+\begin{tabular}{cc}
+
+Primera forma & Segunda forma \\
+\includegraphics[scale=0.25]{sarrus}
+&
+\includegraphics[scale=0.5]{sarrus2}
+
+\end{tabular}
+\end{table}
+\newpage
+% Referencias
+\renewcommand\refname{\large\textbf{Referencias}}
+\bibliography{mibibliografia}
+
+\end{document}
