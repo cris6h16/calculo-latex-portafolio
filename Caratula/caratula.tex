@@ -243,7 +243,7 @@ $
 \end{tabular}
 \end{table}
 
-
+\newpage
 
 \subsubsection{Producto De Una Matriz Por Un Escalar/Real}
 La multiplicación de una matriz por un escalar se realiza multiplicando el escalar por cada elemento de la matriz.
@@ -285,9 +285,7 @@ $${\textit{2}\times\textbf{2}} \qquad {\textbf{2}\times\textit{2}}$$\\
 
 Si es posible ya que el numero de columnas de la primera fila es el mismo que el numero de filas de la segunda, $\textbf{2}$ = $\textbf{2}$, ademas el resultado de $A\times B$ sera igual a una matriz de $\textit{2} \times \textit{2}$.
 \begin{center}
-\includegraphics[scale=0.5]{matrix.png} 
-\end{center}
-
+\includegraphics[scale=0.5]{matrix.png} \\
 \[
 \begin{bmatrix}
    \color{blue} 2 & \color{blue} 3 \\
@@ -314,7 +312,7 @@ Si es posible ya que el numero de columnas de la primera fila es el mismo que el
     68 & 77
 \end{bmatrix}_{2\times2}
 \]
-
+\end{center}
 
 
 \subsubsection{Determinantes}
@@ -341,6 +339,121 @@ Primera forma & Segunda forma \\
 
 \end{tabular}
 \end{table}
+
+\subsubsection{Matriz Transpuesta}
+La matriz traspuesta de una matriz se denota por y se obtiene cambiando sus filas por columnas (o viceversa).
+\[
+Z =
+\begin{pmatrix}
+\color{red} a &\color{red} b & \color{red}c \\
+\color{blue} d & \color{blue}e & \color{blue}f 
+\end{pmatrix}
+\qquad \qquad
+Z^T =
+\begin{pmatrix}
+\color{red}a & \color{blue}d \\ 
+\color{red}b & \color{blue}e \\
+\color{red}c & \color{blue}f \\
+\end{pmatrix}
+\]
+
+\subsubsection{Igualdad de Matrices}
+\begin{itemize}
+\item \begin{equation*}
+\begin{pmatrix}
+ a & b \\
+ c & d 
+\end{pmatrix}
+\quad
++
+\quad
+\begin{pmatrix}
+ 1 & 3 \\
+ 2 & 4 
+\end{pmatrix}
+\quad
+=
+\quad
+\begin{pmatrix}
+0 & 2 \\
+1 & 3
+\end{pmatrix}
+\end{equation*}
+
+\begin{equation*}
+\begin{pmatrix}
+a+1 & b+3 \\
+c+2 & d+4
+\end{pmatrix}_{2\times 2}
+\quad
+=
+\quad
+\begin{pmatrix}
+0 & 2 \\
+1 & 3
+\end{pmatrix}
+\end{equation*}
+
+\begin{table}
+\centering
+\begin{tabular}{ccc}
+$a+1=0$ & $\qquad$ & $b+3=2$ \\
+$a=-1$ & & $b=-1$ \\
+\\
+$c+2=1$ & & $d+4=3$ \\
+$c=-1$ & & $d=-1$
+\end{tabular}
+\end{table}
+
+
+\item \begin{equation*}
+\begin{pmatrix}
+0 & x \\
+2 & -1
+\end{pmatrix}
+=
+\begin{pmatrix}
+0 & 2 \\
+2 & -1
+\end{pmatrix}
+\end{equation*}
+\begin{center}
+Cumple si $x=2$
+\end{center}
+\end{itemize}
+
+\subsubsection{Producto de un Escalar por un Determinante}
+Se multiplica el numero escalar por toda una fila o columna, a continuación se muestra un ejemplo en el cual seleccione la primera columna.
+
+\[
+2 \cdot
+\begin{vmatrix}
+  \color{red}1 & \color{red}4 & \color{red}2 \\
+  1 & 5 & 2 \\
+  2 & -1 & 0 \\
+\end{vmatrix}
+=
+\begin{vmatrix}
+  2 & 8 & 4 \\
+  1 & 5 & 2 \\
+  2 & -1 & 0
+\end{vmatrix}
+\]
+\newpage
+\subsubsection{Matriz Adjunta}
+${Adj}(A)={C_A}^T$	\qquad \qquad \qquad -->	$C_{ij}=(-1)^{i+j} |A_{ij}|$
+\begin{itemize}
+
+\item $2 \times 2$ \\[1cm]
+\begin{tabular}{ccc}
+$A= \begin{pmatrix} 1 & 2 \\ -4 & 5 \end{pmatrix}$ \quad &
+$C_A= \begin{pmatrix} +(5) & -(-4) \\ -(2) & +(1) \end{pmatrix}$ \quad &
+${C_A}^T = {Adj}(A)=\begin{pmatrix} 5 & -2 \\ 4 & 1 \end{pmatrix}$
+\end{tabular}
+
+\end{itemize}
+
+
 \newpage
 % Referencias
 \renewcommand\refname{\large\textbf{Referencias}}
