@@ -10,6 +10,7 @@
 % Required package
 \usepackage{amsmath}
 \usepackage{xcolor}
+\usepackage{cancel}
 
 \selectlanguage{spanish}
 \useunder{\uline}{\ul}{}
@@ -444,15 +445,97 @@ Se multiplica el numero escalar por toda una fila o columna, a continuación se 
 ${Adj}(A)={C_A}^T$	\qquad \qquad \qquad -->	$C_{ij}=(-1)^{i+j} |A_{ij}|$
 \begin{itemize}
 
-\item $2 \times 2$ \\[1cm]
+\item $2 \times 2$ \\[0.5cm]
 \begin{tabular}{ccc}
 $A= \begin{pmatrix} 1 & 2 \\ -4 & 5 \end{pmatrix}$ \quad &
 $C_A= \begin{pmatrix} +(5) & -(-4) \\ -(2) & +(1) \end{pmatrix}$ \quad &
 ${C_A}^T = {Adj}(A)=\begin{pmatrix} 5 & -2 \\ 4 & 1 \end{pmatrix}$
-\end{tabular}
+\end{tabular} \\[1cm]
 
+\item $3 \times 3$ \\[0.5cm]
+\begin{table}
+\centering
+\begin{tabular}{ccc}
+$B= \begin{pmatrix} 
+2 & -1 & 0 \\
+3 & 6 & 1 \\
+4 & 0 & 2
+\end{pmatrix}$ \quad &
+$C_B= \begin{pmatrix} 
++(12) & -(2) & +(-24) \\
+-(-2) & +(4) & -(4) \\
++(-1) & -(2) & +(15) \end{pmatrix}$ \quad &
+${C_B}^T = {Adj}(B)=\begin{pmatrix} 
+12 & 2 & -1 \\
+-2 & 4 & -2 \\
+-24 & -4 & 15 \end{pmatrix}$
+\end{tabular}
+\end{table}
 \end{itemize}
 
+\subsubsection{Menor de una Matriz}
+En el siguiente ejemplo vemos el menor de $A_{11}$ ($M_{ij}$) señalado con azul.
+$$A=\begin{pmatrix}
+\color{red}1 &  \cancel{3} & \cancel{4} \\
+\cancel{-1} & \color{blue}2 & \color{blue}-1 \\
+\cancel{3} & \color{blue}2 & \color{blue}-5
+\end{pmatrix} 	\qquad \qquad \qquad	M_{ij}$$
+
+$M_{11}=\left| \begin{matrix}
+2 & -1 \\ 2 & -5 \end{matrix} \right| = -8$
+\qquad
+$M_{12}=\left| \begin{matrix}
+-1 & -1 \\ 3 & -5 \end{matrix} \right| = 8$
+\qquad
+$M_{13}=\left| \begin{matrix}
+-1 & 2 \\ 3 & 2 \end{matrix} \right| = -8$ \\[0.4cm]
+
+
+$M_{21}=\left| \begin{matrix}
+3 & 4 \\ 2 & -5 \end{matrix} \right| = -23$
+\qquad
+$M_{22}=\left| \begin{matrix}
+1 & 4 \\ 3 & -5 \end{matrix} \right| = -17$
+\qquad
+$M_{23}=\left| \begin{matrix}
+1 & 3 \\ 3 & 2 \end{matrix} \right| = -7$\\[0.4cm]
+
+
+$M_{31}=\left| \begin{matrix}
+3 & 4 \\ 2 & -1 \end{matrix} \right| = -11$
+\qquad
+$M_{32}=\left| \begin{matrix}
+1 & 4 \\ -1 & -1 \end{matrix} \right| = 3$
+\qquad
+$M_{33}=\left| \begin{matrix}
+1 & 3 \\ -1 & 2 \end{matrix} \right| = 5$ \\
+
+\newpage
+\paragraph{Cofactor} $C_{ij}
+=(-1)^{i+j}M_{ij}$ \\
+\begin{table}[H]
+\begin{tabular}{c}
+$C_{21}=(-1)^{2+1}M_{21}$ \\
+$C_{21}=(-1)^3(-23)$ \\
+$C_{21}=23$
+\end{tabular}
+\hspace{5cm}
+\begin{tabular}{c}
+$C_A=\begin{pmatrix}
+C_{11} & C_{12} & C_{13} \\
+C_{21} & C_{22} & C_{23} \\
+C_{31} & C_{32} & C_{33} \\
+\end{pmatrix}
+=
+\begin{pmatrix}
+-8 & -8 -8 \\
+23 17 7 \\
+-11 -3 5
+\end{pmatrix}
+$
+\end{tabular} \\
+
+\end{table}
 
 \newpage
 % Referencias
