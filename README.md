@@ -58,7 +58,7 @@ Para crear la tabla de contenidos, debemos usar el comando `\tableofcontents`, d
 \tableofcontents
 ```
 
-### Secciones numeradas
+### Secciones numeradas en el indice
 
 Las secciones numeradas se muestran en la tabla de contenidos,estaran numeradas si se usa un `\documentclass{}`
 con `article`, en este caso estamos usando el `apa`.
@@ -159,6 +159,8 @@ de `\begin{multicols}{<cantidad_de_columnas>}`.
 - ` \ ` para escribir comandos, tambien es un caracter de escape(escribir simbolos).
 - `\\` para salto de linea.
 - `\\[2cm]` para salto de linea de 2cm.
+- `\hspace{4cm}` para espacio horizontal de 4cm.
+- `\vspace{4cm}` para espacio vertical de 4cm.
 - `%` para comentar.
 - `&` para separar columnas en tablas o entornos(matrices).
 - `^` para superindices.
