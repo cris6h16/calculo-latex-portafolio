@@ -9,6 +9,8 @@
 \usepackage{xcolor}
 \usepackage{cancel}
 \usepackage{paracol}
+\usepackage{gensymb} % \degree
+\usepackage{tikz}% graficas 
 
 \selectlanguage{spanish}
 \newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\}
@@ -617,8 +619,106 @@ $$A^{-1}=\frac{1}{|A|} \times {Adj}(A) \hspace{4cm} |A|\neq 0 $$\\[0.5cm]
 \newpage
 
 \subsubsection{Funciones Trigonométricas}
+Definiciones
+\columnratio{.35}
+\begin{paracol}{2}
+\begin{itemize}
 
 
+\item Geométricas 
+	\begin{itemize}
+		\item[-] Ángulos(Tipos) 
+		\item[-] Triángulos(Clases) 
+	\end{itemize}
+\switchcolumn
+
+\item Trigonométricas \\
+$\hat{X} + \hat{Y}=90\degree$
+
+\begin{tikzpicture}
+  % Ejes
+  \draw[->] (-3,0) -- (3,0) node[right] {$x$};
+  \draw[->] (0,-3) -- (0,3) node[above] {$y$};
+
+  % Puntos de referencia y etiquetas de ángulos
+ % \fill (0,0) circle (2pt) node[below right] {0};
+  \fill (2,0) circle (2pt) node[above right] {0\degree};
+  \fill (0,2) circle (2pt) node[above left] {90\degree};
+  \fill (-2,0) circle (2pt) node[above left] {180\degree};
+  \fill (0,-2) circle (2pt) node[below right] {270\degree};
+  \fill (2,0) circle (2pt) node[below right] {360\degree};
+  \draw [<->,red](1.5,0.1) arc[start angle=3, end angle=42,radius=1.5];  
+	\draw [<->,red](0.05,1.5) arc[start angle=87, end angle=48,radius=1.5];
+  % Líneas para mostrar los ángulos
+  \draw (0,0) -- (1,0);
+  \draw (0,0) -- (0,1);
+  \draw (0,0) -- (-1,0);
+  \draw (0,0) -- (0,-1);
+  \draw (0,0) -- (2,0);
+  \draw (0,0) -- (2,2);  
+\end{tikzpicture}
+\end{itemize}
+
+$\hat{X} + \hat{Y} = 180\degree$\\[0.5cm]
+
+\begin{tikzpicture}
+\draw (-3,0) -- (3,0);
+\draw(0,0) -- (-3,1);
+\draw[<->,red](-1.5,0.005) arc[start angle=180, end angle=163, radius=1.5];
+\draw[<->, red](1.5, 0) arc[start angle=0, end angle=160, radius=1.5];
+
+\node at (0,1) {$x$};
+\node at (-1.2,0.2){$y$};
+\end{tikzpicture}\\[0.5cm]
+
+\begin{tikzpicture}
+\draw(-3,0) -- (3,0);
+\draw(0,3) -- (0,-3);
+\draw(2,0) arc[start angle=0, end angle=360, radius=2]; %circle
+\node[above] at (-3, 0){$180\degree = \textcolor{red}{1\pi{rad}}$};
+\node[right] at (0,2.4){$90\degree = \textcolor{red}{\frac{\pi}{2}{rad}}$};
+\node[above] at (3.3,0){$0\degree = \textcolor{red}{0\pi{rad}}$};
+\node[below] at (3.3,0){$360\degree = \textcolor{red}{2\pi{rad}}$};
+\node[right] at (0,-2.4){$270\degree = \textcolor{red}{\frac{3}{2}\pi {rad}}$};
+\draw[<->,dashed, blue](1,0.1) arc[start angle=0, end angle=180, radius=1]; %grados positivos
+\draw[<->,dashed, red](-1,-0.1) arc[start angle=180, end angle=360, radius=1];%grados negativos
+\node at (0.5, 1.2){\textcolor{blue}{$+$}};
+\node at (0.5, -1.2){\textcolor{red}{$-$}};
+\end{tikzpicture}
+
+$$1\pi{rad} = 180\degree$$
+\end{paracol}
+\newpage
+
+\[
+1000\degree * \frac{1\pi{rad}}{180\degree} = \frac{50}{9}\pi{rad} \approx 5.556\pi{rad}
+\] \\[1cm]
+
+\begin{tikzpicture}
+\draw(1,0) -- (1,2.5);
+\draw(1,0) --(-3,0);
+\draw(-3,0)--(1,2.5);
+\node at(-3.5,0){$A$};
+\node at(1,3){$B$};
+\node at(1.5,0){$C$};
+\node at(-1,1.5){$c$}; % c pequeña
+\node at(1.25, 1.25){$a$};% a pequeña
+\node at(-1,-0.25){$b$}; % b pequeña
+\end{tikzpicture}
+
+Catetos: $a$ \& $b$
+
+Hipotenusa: $c$
+
+Angulos: $A$, $B$, $C$
+
+\paragraph{Teorema de Pitagoras} -> Solo triangulos rectangulos\\
+$a^2+b^2=c^2$ \hspace{8cm} Reciproco: $2=\frac{1}{2}$\\
+$c=\sqrt{a^2+b^2}$\\
+$a=\sqrt{c^2-b^2}$\\
+$b=\sqrt{c^2-a^2}$
+
+\paragraph{Razones Trigonometricas}
 
 
 
