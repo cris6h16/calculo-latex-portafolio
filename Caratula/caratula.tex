@@ -23,6 +23,7 @@
 
 % Gráficas de plano cartesiano
 \usepackage{tikz}
+\usepackage{amstex}
 
 
 \selectlanguage{spanish}
@@ -705,9 +706,178 @@
 
     \newpage
 
-    \subsection{Funciones Trigonométricas}
+    \subsection{Funciones Trigonométricas}\label{subsec:funciones-trigonometricas}
 
-    \subsubsection{Trigonométricas} \\
+    \subsubsection{Geométricas}
+
+    \paragraph{Tipos de Angulos}
+    \begin{itemize}
+        \columnratio{0.5}
+        \begin{paracol}{2}
+
+            \item Agudo: $0\degree < \theta < 90\degree$\\[0.5cm]
+            \begin{tikzpicture}
+                % Plano cartesiano
+                \draw (0,0) -- (0, 2);
+                \draw (0,0) -- (2, 0);
+                %lineas punteadas
+                % 45 grados
+                \draw[dashed] (0,0) -- (0.75, 1.8);
+                % 22.5 grados
+                \draw[dashed] (0,0) -- (1.8, 0.75);
+                % 67.5 grados
+                \draw[dashed] (0,0) -- (1.8, 1.8);
+            \end{tikzpicture}
+
+            \item Recto: $\theta = 90\degree$\\[0.5cm]
+            \begin{tikzpicture}
+                % Plano cartesiano
+                \draw[dashed] (0.05,0) -- (0.05, 2);
+                \draw (0,0) -- (0, 2);
+                \draw (0,0) -- (2, 0);
+            \end{tikzpicture}
+
+            \item Obtuso: $90\degree < \theta < 180\degree$\\[0.5cm]
+            \begin{tikzpicture}
+                % Plano cartesiano
+                \draw (0,0) -- (0, 2);
+                \draw (0,0) -- (2, 0);
+                \draw (0,0) -- (-2, 0);
+                %lineas punteadas
+                % 135 grados
+                \draw[dashed] (0,0) -- (-0.75, 1.8);
+                % 112.5 grados
+                \draw[dashed] (0,0) -- (-1.8, 0.75);
+                % 157.5 grados
+                \draw[dashed] (0,0) -- (-1.8, 1.8);
+            \end{tikzpicture}
+
+            \switchcolumn
+
+            \item Llano: $\theta = 180\degree$\\[0.5cm]
+            \begin{tikzpicture}
+                % Plano cartesiano
+                \draw[dashed] (-2,0) -- (2,0);
+                \draw (0, -0.05) -- (2, -0.05);
+                \draw (0, -0.05) -- (0, 2);
+            \end{tikzpicture}
+
+            \item Cóncavo: $180\degree < \theta < 360\degree$\\[0.5cm]
+            \begin{tikzpicture}
+                % Plano cartesiano
+                \draw (0,0) -- (0, 2);
+                \draw (-2,0) -- (2, 0);
+                %lineas punteadas
+                % 225 grados
+                \draw[dashed] (0,0) -- (-0.75, -1.8);
+                % 202.5 grados
+                \draw[dashed] (0,0) -- (-1.8, -0.75);
+                % 247.5 grados
+                \draw[dashed] (0,0) -- (-1.8, -1.8);
+                % 315 grados
+                \draw[dashed] (0,0) -- (0.75, -1.8);
+                % 375 grados
+                \draw[dashed] (0,0) -- (1.8, -0.75);
+            \end{tikzpicture}
+
+            \item Completo: $\theta = 360\degree$\\[0.5cm]
+            \begin{tikzpicture}
+                % Plano cartesiano
+                \draw (0,0) -- (0, 2);
+                \draw (0,0) -- (2, 0);
+                %linea punteadas 360 grados
+                \draw[dashed] (0,-0.05) -- (2,-0.05);
+
+            \end{tikzpicture}
+
+        \end{paracol}
+    \end{itemize}
+
+    \paragraph{Clasificacion de Triangulos}
+
+    \newcommand{\size}{0.8}
+% Triángulo equilátero
+    \newcommand{\trianguloEquilatero}{
+        \begin{tikzpicture}[scale=\size]
+            \draw (0,0) -- (2,0) -- (1,{sqrt(3)}) -- cycle;
+        \end{tikzpicture}
+    }
+
+% Triángulo isósceles
+    \newcommand{\trianguloIsosceles}{
+        \begin{tikzpicture}[scale=\size]
+            \draw (0,0) -- (4,0) -- (2,{2*sqrt(3)}) -- cycle;
+        \end{tikzpicture}
+    }
+
+% Triángulo escaleno
+    \newcommand{\trianguloEscaleno}{
+        \begin{tikzpicture}[scale=\size]
+            \draw (0,0) -- (3,0) -- (1,{sqrt(8)}) -- cycle;
+        \end{tikzpicture}
+    }
+
+% Triángulo acutángulo
+    \newcommand{\trianguloAcutangulo}{
+        \begin{tikzpicture}[scale=\size]
+            \draw (0,0) -- (3,0) -- (1,2) -- cycle;
+        \end{tikzpicture}
+    }
+
+% Triángulo rectángulo
+    \newcommand{\trianguloRectangulo}{
+        \begin{tikzpicture}[scale=\size]
+            \draw (0,0) -- (3,0) -- (0,4) -- cycle;
+        \end{tikzpicture}
+    }
+
+% Triángulo obtusángulo
+    \newcommand{\trianguloObtusangulo}{
+        \begin{tikzpicture}[scale=\size]
+            \draw (0,0) -- (3,0) -- (-1,2) -- cycle;
+        \end{tikzpicture}
+    }
+
+    \begin{itemize}
+        \item Según sus lados
+        \columnratio{0.3}
+        \begin{paracol}{3}
+            \trianguloEquilatero \\
+            Equilátero \\
+            (3 lados iguales)
+
+            \switchcolumn
+            \trianguloIsosceles \\
+            Isósceles \\
+            (2 lados iguales)
+
+            \switchcolumn
+            \trianguloEscaleno \\
+            Escaleno \\
+            (3 lados diferentes)
+        \end{paracol}
+
+        \item Según sus ángulos
+        \begin{paracol}{3}
+            \trianguloAcutangulo \\
+            Acutángulo \\
+            (3 ángulos agudos)
+
+            \switchcolumn
+            \trianguloRectangulo \\
+            Rectángulo \\
+            (1 ángulo recto)
+
+            \switchcolumn
+            \trianguloObtusangulo \\
+            Obtusángulo \\
+            (1 ángulo obtuso)
+        \end{paracol}
+    \end{itemize}
+
+    \newpage
+
+    \subsubsection{Trigonométricas}
     $\hat{X} + \hat{Y}=90\degree$
 
     \begin{tikzpicture}
@@ -832,99 +1002,128 @@
         }
     \end{paracol}
 
-    \subsubsection{Geométricas}
+    \newpage
 
-    \paragraph{Tipos de Angulos}
-    \begin{itemize}
-        \columnratio{0.5}
-        \begin{paracol}{2}
+    \paragraph{Resolución de Triángulos Rectángulos}.\\[0.5cm]
+    \begin{paracol}{2}
+        \begin{tikzpicture}
+            \draw (0, 0) -- (3, 0) -- (0, 2) -- cycle;
 
-            \item Agudo: $0\degree < \theta < 90\degree$\\[0.5cm]
-            \begin{tikzpicture}
-                % Plano cartesiano
-                \draw (0,0) -- (0, 2);
-                \draw (0,0) -- (2, 0);
-                %lineas punteadas
-                % 45 grados
-                \draw[dashed] (0,0) -- (0.75, 1.8);
-                % 22.5 grados
-                \draw[dashed] (0,0) -- (1.8, 0.75);
-                % 67.5 grados
-                \draw[dashed] (0,0) -- (1.8, 1.8);
-            \end{tikzpicture}
+            \node at (-0.3, 2.5){$P$};
+            \node at (-0.5, -0.3){$R$};
+            \node at (3.5, -0.3){$Q$};
 
-            \item Recto: $\theta = 90\degree$\\[0.5cm]
-            \begin{tikzpicture}
-                % Plano cartesiano
-                \draw[dashed] (0.05,0) -- (0.05, 2);
-                \draw (0,0) -- (0, 2);
-                \draw (0,0) -- (2, 0);
-            \end{tikzpicture}
+            \node at (1.5, -0.3){$p$};
+            \node at (-0.3, 1){$q$};
+            \node at (1.5, 1.3){$r$};
+        \end{tikzpicture}
+        \switchcolumn
+        Resolver es hallar los \textbf{angulos} y \textbf{lados} del triangulo rectangulo.\\
+        \begin{itemize}
+            \item $\hat{P}$
+            \item $\hat{Q}$
+            \item $\hat{R}$
+            \item $p$
+            \item $q$
+            \item $r$
+        \end{itemize}
+    \end{paracol}
 
-            \item Obtuso: $90\degree < \theta < 180\degree$\\[0.5cm]
-            \begin{tikzpicture}
-                % Plano cartesiano
-                \draw (0,0) -- (0, 2);
-                \draw (0,0) -- (2, 0);
-                \draw (0,0) -- (-2, 0);
-                %lineas punteadas
-                % 135 grados
-                \draw[dashed] (0,0) -- (-0.75, 1.8);
-                % 112.5 grados
-                \draw[dashed] (0,0) -- (-1.8, 0.75);
-                % 157.5 grados
-                \draw[dashed] (0,0) -- (-1.8, 1.8);
-            \end{tikzpicture}
+    \subsubsection{Ley de Senos y Cosenos}
+    Se aplica para la resolución de triángulos \textbf{oblicuángulos} (triángulos que no tienen ángulos rectos).\\[0.5cm]
 
-            \switchcolumn
+    \columnratio{0.5}
+    \begin{paracol}{2}
+        \paragraph{Ley de Senos}.\\[0.5cm]
+        \begin{tikzpicture}
+            \draw (0,0) -- (3,0) -- (1,2) -- cycle;
+            \node at (0.3, 1.3){$a$};
+            \node at (2, 1.3){$b$};
+            \node at (1.5, -0.3){$c$};
 
-            \item Llano: $\theta = 180\degree$\\[0.5cm]
-            \begin{tikzpicture}
-                % Plano cartesiano
-                \draw[dashed] (-2,0) -- (2,0);
-                \draw (0, -0.05) -- (2, -0.05);
-                \draw (0, -0.05) -- (0, 2);
-            \end{tikzpicture}
+            \node at (3.5, -0.1){$\hat{A}$};
+            \node at (-0.5, 0){$\hat{B}$};
+            \node at (1, 2.5){$\hat{C}$};
+        \end{tikzpicture}\\[0.5cm]
+        \boxed{
+            $\dfrac{a}{\sin(A)}=\dfrac{b}{\sin(B)}=\dfrac{c}{\sin(C)}$
+        }\\[0.5cm]
+        \boxed{
+            $\dfrac{\sin(A)}{a}=\dfrac{\sin(B)}{b}=\dfrac{\sin(C)}{c}$
+        }
+        \switchcolumn
 
-            \item Cóncavo: $180\degree < \theta < 360\degree$\\[0.5cm]
-            \begin{tikzpicture}
-                % Plano cartesiano
-                \draw (0,0) -- (0, 2);
-                \draw (-2,0) -- (2, 0);
-                %lineas punteadas
-                % 225 grados
-                \draw[dashed] (0,0) -- (-0.75, -1.8);
-                % 202.5 grados
-                \draw[dashed] (0,0) -- (-1.8, -0.75);
-                % 247.5 grados
-                \draw[dashed] (0,0) -- (-1.8, -1.8);
-                % 315 grados
-                \draw[dashed] (0,0) -- (0.75, -1.8);
-                % 375 grados
-                \draw[dashed] (0,0) -- (1.8, -0.75);
-            \end{tikzpicture}
+        \paragraph{Ley de Cosenos}.\\[0.5cm]
+        $a^2=b^2+c^2-2bc\cos(A)$\\
+        $b^2=a^2+c^2-2ac\cos(B)$\\
+        $c^2=a^2+b^2-2ab\cos(C)$\\
 
-            \item Completo: $\theta = 360\degree$\\[0.5cm]
-            \begin{tikzpicture}
-                % Plano cartesiano
-                \draw (0,0) -- (0, 2);
-                \draw (0,0) -- (2, 0);
-                %linea punteadas 360 grados
-                \draw[dashed] (0,-0.05) -- (2,-0.05);
+    \end{paracol}\\[1cm]
 
-            \end{tikzpicture}
+    \paragraph{Resolucion de un Triangulo Oblicuangulo}.\\[0.5cm]
 
-        \end{paracol}
-    \end{itemize}
+    \columnratio{0.4}
+    \begin{paracol}{2}
+        \begin{itemize}
+            \item $\hat{W} = 35\degree$
+            \item $\hat{Y} = ?$
+            \item $\hat{X} = ?$
+            \item $w = ?$
+            \item $y = 4$
+            \item $x = 7$
+        \end{itemize}
 
-    \paragraph{Clasificacion de Triangulos}
+        \switchcolumn
 
+        \begin{tikzpicture}
+            \draw (0,0) -- (2,0) -- (3,2) -- cycle;
 
+            \node at (3.3, 2.3){$\hat{Y}$};
+            \node at (2, -0.3){$\hat{X}$};
+            \node at (-0.5, -0.1){$\hat{W}$};
 
+            \node at (1, -0.3){$4$};
+            \node at (1, 1){$7$};
+        \end{tikzpicture}\\[0.5cm]
 
+        \newcommand{\visto}{\includegraphics[scale=0.1]{visto}}
+        \newcommand{\mal}{\includegraphics[scale=0.1]{mal}}
 
+        No podemos usar la ley de senos porque al igualar cualquir par de razones, nos quedan dos incognitas.\\[0.5cm]
+        \scalebox{1.5}{
+            $\dfrac{\sin\hat{W} \visto}{w \mal}=
+            \dfrac{\sin\hat{Y \mal}}{y \visto}=
+            \dfrac{\sin\hat{X} \mal}{x \visto}$
+        }\\[0.5cm]
 
+    \end{paracol}
 
+    \columnratio{0.5}
+    \begin{paracol}{2}
+        \textbf{Debemos usar la ley de cosenos.}\\[0.5cm]
+        $w^2 = x^2 + y^2 - 2xy\cos\hat{W}$\\
+        $w^2 = 4^2 + 7^2 - 2(4)(7)\cos35\degree$\\
+        $w^2 = 16 + 49 - 56(0.819)$\\
+        $w^2 = 65 - 45.664$\\
+        $w^2 = 19.336$\\
+        $w = \sqrt{19.336}$\\
+        $\textbf{w \approx 4.4}$\\[2.5cm]
+
+        %Hallar la X restando los angulos que ya tenemos a 180
+        $\hat{X} = 180\degree - 31.5\degree - 35\degree$\\
+        $\hat{X} \approx 113.5\degree$\\[0.5cm]
+
+        \switchcolumn
+        \vspace{0.5cm}
+        Ya podemos usar la ley de senos.\\[0.5cm]
+        $\dfrac{\sin\hat{W}}{w}= \dfrac{\sin\hat{Y}}{y}$\\[0.5cm]
+        $\dfrac{\sin35\degree}{4.4}= \dfrac{\sin\hat{Y}}{4}$\\[0.5cm]
+        $\sin\hat{Y} = 4 \times \dfrac{\sin35\degree}{4.4}$\\[0.5cm]
+        $\hat{Y} = \sin^{-1} \left( 4 \times \dfrac{\sin35\degree}{4.4} \right)$\\[0.5cm]
+        $\hat{Y} \approx 31.5\degree$\\[0.5cm]
+    \end{paracol}
+
+    \subsubsection{Funciones}
 
 
     \newpage
