@@ -1123,10 +1123,169 @@
         $\hat{Y} \approx 31.5\degree$\\[0.5cm]
     \end{paracol}
 
-    \subsubsection{Funciones}
-
-
     \newpage
+
+    \subsubsection{Funciones}
+    \newcommand{\sinConlor}{orange}
+    \newcommand{\cosConlor}{blue}
+
+    $f(x)=y=\sin(x)$\\
+    \boxed{\color{\sinConlor}\sin(x)}
+    \boxed{\color{\cosConlor}\cos(x)}
+    %esta es la grafica de y=sin(x)
+    \begin{tikzpicture}
+        \draw[<->,thick] (-3,0)--(5,0) node[right] {$x$};
+        \draw[<->,thick] (0,-2)--(0,2) node[above] {$y$};
+
+        \draw[very thick,color=\sinConlor ] plot [domain={-180/90}:{400/90},smooth] (\x,{sin(90*\x)});
+        \draw[very thick,color=\cosConlor] plot [domain={-180/90}:{400/90},smooth] (\x,{cos(90*\x)});
+
+        \draw ({-180/90},-0.15) -- ({-180/90},+0.15) node[below=7] {$-180^\circ$};
+        \draw ({-90/90},-0.15) -- ({-90/90},+0.15) node[below=7] {$-90^\circ$};
+        \draw ({90/90},-0.15) -- ({90/90},+0.15) node[below=7] {$90^\circ$};
+        \draw ({180/90},-0.15) -- ({180/90},+0.15) node[below=7] {$\pi$};
+        \draw ({270/90},-0.15) -- ({270/90},+0.15) node[below=7] {$\frac{3}{2}\pi$};
+        \draw ({360/90},-0.15) -- ({360/90},+0.15) node[below=7] {$2\pi$};
+
+        \draw (-0.15,-1) -- (+0.15,-1) node[left=7] {$-1$};
+        \draw (-0.15,1) -- (+0.15,1) node[left=7] {$1$};
+    \end{tikzpicture}\\[0.5cm]
+
+    \begin{tikzpicture}
+        \draw (-3,0) -- (3,0);
+        \draw(0,3) -- (0,-3);
+
+        \draw(2,0) arc[start angle=0, end angle=360, radius=2]; %circle
+        \node[above] at (-3, 0){$180\degree = \textcolor{red}{1\pi{rad}}$};
+        \node[right] at (0,2.4){$90\degree = \textcolor{red}{\frac{\pi}{2}{rad}}$};
+        \node[above] at (3.3,0){$0\degree = \textcolor{red}{0\pi{rad}}$};
+        \node[below] at (3.3,0){$360\degree = \textcolor{red}{2\pi{rad}}$};
+        \node[right] at (0,-2.4){$270\degree = \textcolor{red}{\frac{3}{2}\pi {rad}}$};
+        \draw[<->,dashed, \sinConlor](1,0.1) arc[start angle=0, end angle=180, radius=1]; %grados positivos
+        \draw[<->,dashed, red](-1,-0.1) arc[start angle=180, end angle=360, radius=1];%grados negativos
+        \node at (0.5, 1.2){\textcolor{\sinConlor}{$+$}};
+        \node at (0.5, -1.2){\textcolor{red}{$-$}};
+
+        % coseno
+        \node[draw,circle,inner sep=2pt] at (4.5,0) {\color{\cosConlor}1};
+        \node[draw,circle,inner sep=2pt] at (-4.5,0) {\color{\cosConlor}-1};
+
+        % seno
+        \node[draw,circle,inner sep=2pt] at (0,3.5) {\color{\sinConlor}1};
+        \node[draw,circle,inner sep=2pt] at (0,-3.5) {\color{\sinConlor}-1};
+    \end{tikzpicture}\\[0.5cm]
+
+    $\tan(0\degree) = \dfrac{\sin(0\degree)}{\cos(0\degree)} = \dfrac{0}{1} = 0$\\[0.5cm]
+    $\tan(90\degree) = \dfrac{\sin(90\degree)}{\cos(90\degree)} = \dfrac{1}{0} = \infty$ (indefinido)\\[0.5cm]
+    $\tan(180\degree) = \dfrac{\sin(180\degree)}{\cos(180\degree)} = \dfrac{0}{-1} = 0$\\[0.5cm]
+    $\tan(270\degree) = \dfrac{\sin(270\degree)}{\cos(270\degree)} = \dfrac{-1}{0} = -\infty$ (indefinido)\\[0.5cm]
+    \newpage
+
+    \subsubsection{Signos de las funciones trigonométricas}
+    \columnratio{0.17}
+    \begin{paracol}{6}
+        \switchcolumn
+        TODAS\\
+        I
+        \switchcolumn
+        SIN\\
+        II
+        \switchcolumn
+        TA\\
+        III
+        \switchcolumn
+        COS\\
+        IV
+        \switchcolumn
+    \end{paracol}
+    \hspace{2cm}
+
+    \begin{tikzpicture}
+        \draw (-3,0) -- (3,0);
+        \draw(0,3) -- (0,-3);
+
+        \draw(2,0) arc[start angle=0, end angle=360, radius=2]; %
+        \node at (0.9, 0.9){$I$};
+        \node at (2, 2){$TODAS$};
+
+        \node at (-0.9, 0.9){$II$};
+        \node at (-2, 2){$SIN, CSC$};
+
+        \node at (-0.9, -0.9){$III$};
+        \node at (-2, -2){$TAN, COT$};
+
+        \node at (0.9, -0.9){$IV$};
+        \node at (2, -2){$COS, SEC$};
+    \end{tikzpicture}\\[0.5cm]
+    %grafico de seno, coseno, tangente.
+
+    \begin{tikzpicture}[help lines/.style={black!50,very thin}]
+        \draw[<->,thick] (-2,0)--(4.25,0) node[right] {$x$};
+        \draw[<->,thick] (0,-2)--(0,2) node[above] {$y$};
+
+        \draw[very thick,color=blue ] plot [domain=-1:{360/90},smooth] (\x,{sin(90*\x)});
+        \draw[very thick,color=green] plot [domain=-1:{360/90},smooth] (\x,{cos(90*\x)});
+        \foreach \i in {2,...,4} \draw[very thick,color=brown] plot [domain={(180*(\i-2)-atan(2)*ceil(\i/4))/90}:{(180*(\i-2)+atan(2)*ceil((4-\i)/4))/90},smooth] (\x,{tan(90*\x)});
+        \node[blue ] at (5,3) {$y = \sin x$};
+        \node[green] at (5,2) {$y = \cos x$};
+        \node[brown] at (5,1) {$y = \tan x$};
+
+        \draw ({-90/90},-0.15) -- ({-90/90},+0.15) node[below=7] {$-\dfrac{\pi}{2}$};
+        \draw ({90/90},-0.15) -- ({90/90},+0.15) node[below=7] {$\dfrac{\pi}{2}$};
+        \draw ({180/90},-0.15) -- ({180/90},+0.15) node[below=7] {$\pi$};
+        \draw ({270/90},-0.15) -- ({270/90},+0.15) node[below=7] {$\frac{3}{2}\pi$};
+        \draw ({360/90},-0.15) -- ({360/90},+0.15) node[below=7] {$2\pi$};
+
+        \draw[dashed] ({-90/90},-3) -- ({-90/90},+3);
+        \draw[dashed]  ({90/90},-3) -- ({90/90},+3);
+        \draw[dashed]({180/90},-3) -- ({180/90},+3);
+        \draw[dashed]({270/90},-3) -- ({270/90},+3);
+        \draw[dashed]({360/90},-3) -- ({360/90},+3);
+
+        \draw (-0.15,-1) -- (+0.15,-1) node[left=7] {$-1$};
+        \draw (-0.15,1) -- (+0.15,1) node[left=7] {$1$};
+
+        \node at (0.5, 3) {$I$};
+        \node at (1.5, 3) {$II$};
+        \node at (2.5, 3) {$III$};
+        \node at (3.5, 3) {$IV$};
+    \end{tikzpicture}
+    \newpage
+
+    \subsubsection{Identidades Trigonométricas}
+    $3x+1=5x-4+5-2x$ \hspace{5cm} Identidad: \textbf{0=0}\\[0.5cm]
+    $3x+1=3x+1$\\[0.5cm]
+    \textbf{Cumple si} \\
+    \boxed{$x=1$\hspace{0.5cm} $4=4$}\\
+    \boxed{$x=0$\hspace{0.5cm}$1=1$}
+
+    \columnratio{0.5}
+    \begin{paracol}{2}
+        \paragraph{Identidades Reciprocas}\\
+        \begin{enumerate}
+            \item $\sin(x) = \dfrac{1}{\csc(x)} => csc(x) = \dfrac{1}{\sin(x)}$
+            \item $\cos(x) = \dfrac{1}{\sec(x)} => sec(x) = \dfrac{1}{\cos(x)}$
+            \item $\tan(x) = \dfrac{1}{\cot(x)} => cot(x) = \dfrac{1}{\tan(x)}$
+
+            \item $\tan(x) = \dfrac{\sin(x)}{\cos(x)}$
+            \item $\cot(x) = \dfrac{\cos(x)}{\sin(x)}$
+
+            \switchcolumn
+
+            \paragraph{Identidades Pitagoricas}\\
+            \item[6.] $\sin^2(x) + \cos^2(x) = 1$
+            \item[7.] $1 + \tan^2(x) = \sec^2(x)$
+            \item[8.] $1 + \cot^2(x) = \csc^2(x)$
+        \end{enumerate}
+    \end{paracol}
+
+    \paragraph{Angulos dobles}\\
+    \begin{itemize}
+        \item $\sin(2x) = 2\sin(x)\cos(x)$
+        \item $\cos(2x) = \cos^2(x) - \sin^2(x)$
+        \item $\tan(2x) = \dfrac{2\tan(x)}{1-\tan^2(x)}$
+    \end{itemize}
+
 % Referencias
     \renewcommand\refname{\large\textbf{Referencias}}
 %    \bibliography{mibibliografia}
