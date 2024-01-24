@@ -1345,9 +1345,58 @@
     $\displaystyle\lim \dfrac{1}{x^n} = 0$ \\[0.5cm]
     $\displaystyle\lim_{x \to \infty} \dfrac{2x^3+x-1}{x-3x^4+2} = \dfrac{\infty}{\infty} $\hspace{2cm} -> Indefinido\\[0.5cm]
     \textbf{Dividir todo para el exponente mas alto}\\[0.5cm]
+    $\displaystyle\lim_{x \to \infty} \dfrac{\dfrac{2x^3}{x^4}+\dfrac{x}{x^4}-\dfrac{1}{x^4}}{\dfrac{x}{x^4}-\dfrac{3x^4}{x^4}+\dfrac{2}{x^4}} = \dfrac{0+0-0}{0-3+0} = \dfrac{0}{-3} = 0$\\[0.5cm]
 
+    \newpage
 
+    \subsubsection{Limites Continuidad}
+    \begin{itemize}
+        \item $f(x) = \begin{cases}
+                          x + 3 & \text{si } x < 2 \\
+                          x^2 + 1 & \text{si } x \geq 2
+        \end{cases}$\\[0.5cm]
+        \begin{enumerate}
+            \item $f(2) = (2)^2 + 1 = 5$
 
+            \item $\exists \displaystyle\lim_{x \to 2} f(x) = 5$\\[0.5cm]
+            \columnratio{0.15,0.16,0.7}
+            \begin{paracol}{3}
+                $\exists = ? $
+                \switchcolumn
+                $\displaystyle\lim_{x \to 2} f(x)=$
+                \switchcolumn
+                $-> \displaystyle\lim_{x \to 2^-} f(x) = \displaystyle\lim_{x\to2^-} (x+3) = 5$\\[0.5cm]
+                $-> \displaystyle\lim_{x \to 2^+} f(x) = \displaystyle\lim_{x\to2^+} (x^2-1) = 5$\\[0.5cm]
+            \end{paracol}
+
+            \item $\displaystyle\lim_{x\to c} f(x) = f(c)$\\[0.5cm]
+            $5=5$
+        \end{enumerate}
+        \textbf{La funcion es continua}
+    \end{itemize}
+
+    \newpage
+
+    \subsection{Derivadas}\label{subsec:derivadas}
+    \columnratio{0.5}
+    \begin{paracol}{2}
+        \includegraphics[scale=0.2]{derivative}
+        \switchcolumn
+        $\tan(x) = \tan({secante}) = \dfrac{y^2-y^1}{x^2-x^1}$\\[0.5cm]
+        $m_{sec} = \dfrac{y^2-y^1}{x^2-x^1}$
+    \end{paracol}
+
+    $\displaystyle\lim_{h \to 0} \dfrac{f(x+h)-f(x)}{h} $\\[0.5cm]
+    \begin{center}
+        $f(x)=3x+1$\\[0.5cm]
+    \end{center}
+    \begin{paracol}{2}
+        $f(x+h)=3(x+h)+1$\\[0.5cm]
+        $f(x+h)=3x+3h+1$\\[0.5cm]
+        \switchcolumn
+        $f'(x)=\displaystyle\lim_{h\to0} \dfrac{3x+3h+1-(3x+1)}{h}$\\[0.5cm]
+        $f'(x)=\displaystyle\lim_{h\to0} \dfrac{\cancel{3x}+3h\cancel{+1}\cancel{-3x}\cancel{-1}}{h}$\\[0.5cm]
+    \end{paracol}
 
 % Referencias
     \renewcommand\refname{\large\textbf{Referencias}}
