@@ -1444,7 +1444,8 @@
     \newpage
 
     \begin{paracol}{2}
-        \begin{enumerate} \setcounter{enumi}{3}
+        \begin{enumerate}
+            \setcounter{enumi}{3}
             \item \textbf{Propiedad cociente}\\[0.5cm]
             $y=\dfrac{f}{g}$\\[0.5cm]
             $y'=\dfrac{f'g-g'f}{g^2}$\\[0.5cm]
@@ -1452,40 +1453,59 @@
     \end{paracol}
 
     \subsubsection{Derivadas de funciones trigonometricas}
-    \begin{paracol}{2}
-        \begin{enumerate}
-            \item $\sin(x)$\\[0.5cm]
-            $\sin'(x)=\cos(x)$\\[0.5cm]
-            \item $\cos(x)$\\[0.5cm]
-            $\cos'(x)=-\sin(x)$\\[0.5cm]
-            \item $\tan(x)$\\[0.5cm]
-            $\tan'(x)=\sec^2(x)$\\[0.5cm]
-            \item $\cot(x)$\\[0.5cm]
-            $\cot'(x)=-\csc^2(x)$\\[0.5cm]
-            \item $\sec(x)$\\[0.5cm]
-            $\sec'(x)=\sec(x)\tan(x)$\\[0.5cm]
-            \item $\csc(x)$\\[0.5cm]
-            $\csc'(x)=-\csc(x)\cot(x)$\\[0.5cm]
-        \end{enumerate}
-        \switchcolumn
-        \begin{enumerate} \setcounter{enumi}{6}
-            \item $\sin^{-1}(x)$\\[0.5cm]
-            $\sin^{-1}(x)=\dfrac{1}{\sqrt{1-x^2}}$\\[0.5cm]
-            \item $\cos^{-1}(x)$\\[0.5cm]
-            $\cos^{-1}(x)=-\dfrac{1}{\sqrt{1-x^2}}$\\[0.5cm]
-            \item $\tan^{-1}(x)$\\[0.5cm]
-            $\tan^{-1}(x)=\dfrac{1}{1+x^2}$\\[0.5cm]
-            \item $\cot^{-1}(x)$\\[0.5cm]
-            $\cot^{-1}(x)=-\dfrac{1}{1+x^2}$\\[0.5cm]
-            \item $\sec^{-1}(x)$\\[0.5cm]
-            $\sec^{-1}(x)=\dfrac{1}{|x|\sqrt{x^2-1}}$\\[0.5cm]
-            \item $\csc^{-1}(x)$\\[0.5cm]
-            $\csc^{- 1}(x)=-\dfrac{1}{|x|\sqrt{x^2-1}}$\\[0.5cm]
-        \end{enumerate}
+    \begin{table}
+        \centering
+        \begin{tabular}{|c|c|}
+            \hline
+            \textbf{Funcion} & \textbf{Derivada} \\
+            \hline
+            $\sin(x)$        & $\cos(x)$         \\
+            \hline
+            $\cos(x)$        & $-\sin(x)$        \\
+            \hline
+            $\tan(x)$        & $\sec^2(x)$       \\
+            \hline
+            $\cot(x)$        & $-\csc^2(x)$      \\
+            \hline
+            $\sec(x)$        & $\sec(x)\tan(x)$  \\
+            \hline
+            $\csc(x)$        & $-\csc(x)\cot(x)$ \\
+            \hline
+        \end{tabular}\label{tab:table2}
+    \end{table}
 
+    \paragraph{Ejemplo:}\\[0.5cm]
+    $y=\dfrac{\tan(x)+1}{2x-3}$\\[0.5cm]
+    $y'=\dfrac{(\tan(x)+1)'(2x-3)-(\tan(x)+1)(2x-3)'}{(2x-3)^2}$\\[0.5cm]
+    $y'=\dfrac{(\sec^2(x))(2x-3)-(\tan(x)+1)(2)}{(2x-3)^2}$\\[0.5cm]
 
+    \subsubsection{Regla de la potencia para funciones}
+    \scalebox{1.5}{$y'=nu^{n-1}u'$}\\[0.5cm]
+    $u=g(x)$\\[0.5cm]
+    $y=(g(x))^n$\\[0.5cm]
+    $y=u^n$\\[1cm]
+    $u'$ es la derivada interna/implicita\\[0.5cm]
 
-% Referencias
+    \paragraph{Ejemplo 1:}\\[0.5cm]
+    $y=(2x+1)^n$\\[0.5cm]
+    $y'=n(2x+1)^{n-1}(2x+1)'$\\[0.5cm]
+    $y'=n(2x+1)^{n-1}(2)$\\[0.5cm]
+    $y'=2n(2x+1)^{n-1}$\\[0.5cm]
+    \paragraph{Ejemplo 2:}\\[0.5cm]
+    $y=sin(5x)$\\[0.5cm]
+    $y'=cos(5x)(5x)'$\\[0.5cm]
+    $y'=cos(5x)(5)$\\[0.5cm]
+    $y'=5cos(5x)$\\[0.5cm]'
+
+    \subsubsection{Regla de la cadena}
+    $y=f(g(x)) =(fog)(x)$\\[0.5cm]
+    $y'=f'(g(x))g'(x)$ \textbf{o} $y'=\dfrac{dx}{dt} \times \dfrac{dt}{dw} \times \dfrac{dw}{dx}$.....\\[0.5cm]
+
+    \paragraph{Ejemplo 1:}\\[0.5cm]
+    $y=(sin(x))^5$\\[0.5cm]
+    $y'=5(sin(x))^4(sin(x))'$\\[0.5cm]
+    $y'=5(sin(x))^4(cos(x))$\\[0.5cm]
+    % Referencias
     \renewcommand\refname{\large\textbf{Referencias}}
 %    \bibliography{mibibliografia}
     \bibliographystyle{plain}
