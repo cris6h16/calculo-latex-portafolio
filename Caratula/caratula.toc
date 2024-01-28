@@ -59,3 +59,6 @@
 \contentsline {subsubsection}{Limite al infinito}{22}{section*.70}%
 \contentsline {subsubsection}{Limites Continuidad}{23}{section*.71}%
 \contentsline {subsection}{Derivadas}{24}{section*.72}%
+\contentsline {subsubsection}{Diferenciable}{24}{section*.73}%
+\contentsline {subsubsection}{Reglas de derivacion}{25}{section*.74}%
+\contentsline {subsubsection}{Derivadas de funciones trigonometricas}{26}{section*.75}%

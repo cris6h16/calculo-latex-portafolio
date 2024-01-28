@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.10)  24 JAN 2024 07:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.10)  28 JAN 2024 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1949,18 +1949,18 @@ l.127     \end{pmatrix}_{1\times n}\]
 s/lm/lm-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Pr
 ogram Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX/fo
 nts/enc/dvips/lm/lm-mathsy.enc}] [2] [3] [4]
-<matrix.png, id=327, 422.0568pt x 210.3057pt>
+<matrix.png, id=342, 422.0568pt x 210.3057pt>
 File: matrix.png Graphic file (type png)
 <use matrix.png>
 Package pdftex.def Info: matrix.png  used on input line 333.
 (pdftex.def)             Requested size: 211.02788pt x 105.15259pt.
  [5 <./matrix.png>]
-<sarrus.png, id=335, 642.4pt x 803.0pt>
+<sarrus.png, id=350, 642.4pt x 803.0pt>
 File: sarrus.png Graphic file (type png)
 <use sarrus.png>
 Package pdftex.def Info: sarrus.png  used on input line 383.
 (pdftex.def)             Requested size: 160.59961pt x 200.74951pt.
-<sarrus2.png, id=336, 630.85687pt x 220.57407pt>
+<sarrus2.png, id=351, 630.85687pt x 220.57407pt>
 File: sarrus2.png Graphic file (type png)
 <use sarrus2.png>
 Package pdftex.def Info: sarrus2.png  used on input line 385.
@@ -1985,7 +1985,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 585--605
 
  []
 
-<dc.png, id=355, 224.037pt x 142.131pt>
+<dc.png, id=370, 224.037pt x 142.131pt>
 File: dc.png Graphic file (type png)
 <use dc.png>
 Package pdftex.def Info: dc.png  used on input line 610.
@@ -2135,12 +2135,12 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [16]
-<visto.png, id=395, 66.2475pt x 59.62276pt>
+<visto.png, id=410, 66.2475pt x 59.62276pt>
 File: visto.png Graphic file (type png)
 <use visto.png>
 Package pdftex.def Info: visto.png  used on input line 1099.
 (pdftex.def)             Requested size: 6.62512pt x 5.96262pt.
-<mal.png, id=396, 65.043pt x 71.0655pt>
+<mal.png, id=411, 65.043pt x 71.0655pt>
 File: mal.png Graphic file (type png)
 <use mal.png>
 Package pdftex.def Info: mal.png  used on input line 1099.
@@ -2725,7 +2725,7 @@ l.1308 ...a: \displaystyle\lim_{{x \to a}^-} L_2\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-<lim.png, id=421, 178.266pt x 171.039pt>
+<lim.png, id=436, 178.266pt x 171.039pt>
 File: lim.png Graphic file (type png)
 <use lim.png>
 Package pdftex.def Info: lim.png  used on input line 1322.
@@ -2742,17 +2742,38 @@ Overfull \hbox (38.15765pt too wide) in paragraph at lines 1366--1367
  []
 
 [23]
-<derivative.png, id=445, 803.0pt x 889.3225pt>
+<derivative.png, id=460, 803.0pt x 889.3225pt>
 File: derivative.png Graphic file (type png)
 <use derivative.png>
-Package pdftex.def Info: derivative.png  used on input line 1382.
+Package pdftex.def Info: derivative.png  used on input line 1383.
 (pdftex.def)             Requested size: 160.59715pt x 177.86134pt.
+ [24 <./derivative.png>]
+! Missing { inserted.
+<to be read again> 
+                   \def 
+l.1430         $y=x^\dfrac
+                          {3}{2}$\\[0.5cm]
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
 
+! Missing } inserted.
+<inserted text> 
+                }
+l.1430         $y=x^\dfrac{3}{2}$
+                                 \\[0.5cm]
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-Class apa7 Warning: \bibliographystyle command ignored on input line 1402.
+[25]
 
-AED endfloat: Processing end Figures and Tables [24 <./derivative.png>]
-(caratula.aux
+Class apa7 Warning: \bibliographystyle command ignored on input line 1461.
+
+AED endfloat: Processing end Figures and Tables [26] (caratula.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 LaTeX Info: Redefining \. on input line 24.
@@ -2763,13 +2784,13 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `caratula.out' has not changed.
-(rerunfilecheck)             Checksum: 4DD34CDDE901CBE9CBF581BAFFAFDE35;9556.
+(rerunfilecheck)             Checksum: 0A91B3D79228C4688B7D6FAEBFE53011;10097.
  ) 
 Here is how much of TeX's memory you used:
- 27716 strings out of 475248
- 501751 string characters out of 5767618
+ 27728 strings out of 475248
+ 501865 string characters out of 5767618
  1942785 words of memory out of 5000000
- 48633 multiletter control sequences out of 15000+600000
+ 48636 multiletter control sequences out of 15000+600000
  664696 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,17n,103p,417b,766s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2785,9 +2806,9 @@ les/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1
 /Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX
 /fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/l
 m/lmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on caratula.pdf (28 pages, 479840 bytes).
+Output written on caratula.pdf (30 pages, 485902 bytes).
 PDF statistics:
- 551 PDF objects out of 1000 (max. 8388607)
- 113 named destinations out of 1000 (max. 500000)
- 525 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 580 PDF objects out of 1000 (max. 8388607)
+ 122 named destinations out of 1000 (max. 500000)
+ 549 words of extra memory for PDF output out of 10000 (max. 10000000)
 

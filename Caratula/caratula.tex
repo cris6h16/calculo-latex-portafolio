@@ -1395,8 +1395,95 @@
         $f(x+h)=3x+3h+1$\\[0.5cm]
         \switchcolumn
         $f'(x)=\displaystyle\lim_{h\to0} \dfrac{3x+3h+1-(3x+1)}{h}$\\[0.5cm]
-        $f'(x)=\displaystyle\lim_{h\to0} \dfrac{\cancel{3x}+3h\cancel{+1}\cancel{-3x}\cancel{-1}}{h}$\\[0.5cm]
+        $f'(x)=\displaystyle\lim_{h\to0} \dfrac{\cancel{3x}+3h+\cancel{1}-\cancel{3x}-\cancel{1}}{h}$\\[0.5cm]
+        $f'(x)=\displaystyle\lim_{h\to0} \dfrac{3\cancel{h}}{\cancel{h}}$\\[0.5cm]
+        $f'(x)=\displaystyle\lim_{h\to0} 3 = 3$\\[0.5cm]
     \end{paracol}
+
+    \subsubsection{Diferenciable}
+    \begin{itemize}
+        \item $f'_+(x)$\\[0.5cm]
+        \item $f'_-(x)$\\[0.5cm]
+        Es diferenciable si $f'_+(x)=f'_-(x)$\\[0.5cm]
+    \end{itemize}
+
+    \newpage
+
+    \subsubsection{Reglas de derivacion}
+    \begin{paracol}{2}
+        \begin{enumerate}
+            \item \textbf{Derivada de una potencia entera positiva}\\[0.5cm]
+            $f(x)=x^n$\\[0.5cm]
+            $f'(x)=nx^{n-1}$\\[0.5cm]
+            \vspace{2cm}
+            \item \textbf{Derivada de una constante es 0}\\[0.5cm]
+            $y=5+x^3$\\[0.5cm]
+            $y'=0+3x^2$\\[0.5cm]
+            $y'=3x^2$\\[0.5cm]
+            \item \textbf{Regla del producto y del cociente para derivadas}\\[0.5cm]
+            $y=f*g$\\[0.5cm]
+            $y'=f'g+g'f$\\[0.5cm]
+        \end{enumerate}
+        \switchcolumn
+        %ejemplo de la regla 1
+        \textbf{Ejemplo:}\\[0.5cm]
+        $y=x^\dfrac{3}{2}$\\[0.5cm]
+        $y'=\dfrac{3}{2}x^{\dfrac{3}{2}-1}$\\[0.5cm]
+        $y'=\dfrac{3}{2}x^{\dfrac{1}{2}}$\\[0.5cm]
+
+        \vspace{6.5cm}
+        %ejemplo de la regla 3
+        \textbf{Ejemplo:}\\[0.5cm]
+        $y=2x(3x^2+1)$\\[0.5cm]
+        $y'=(2x)'(3x^2+1)+(3x^2+1)'(2x)$\\[0.5cm]
+        $y'=2(3x^2+1)+6x(2x)$\\[0.5cm]
+        $y'=6x^2+2+12x^2$\\[0.5cm]
+        $y'=18x^2+2$\\[0.5cm]
+        $y'=18x^2$\\[0.5cm]
+    \end{paracol}
+    \newpage
+
+    \begin{paracol}{2}
+        \begin{enumerate} \setcounter{enumi}{3}
+            \item \textbf{Propiedad cociente}\\[0.5cm]
+            $y=\dfrac{f}{g}$\\[0.5cm]
+            $y'=\dfrac{f'g-g'f}{g^2}$\\[0.5cm]
+        \end{enumerate}
+    \end{paracol}
+
+    \subsubsection{Derivadas de funciones trigonometricas}
+    \begin{paracol}{2}
+        \begin{enumerate}
+            \item $\sin(x)$\\[0.5cm]
+            $\sin'(x)=\cos(x)$\\[0.5cm]
+            \item $\cos(x)$\\[0.5cm]
+            $\cos'(x)=-\sin(x)$\\[0.5cm]
+            \item $\tan(x)$\\[0.5cm]
+            $\tan'(x)=\sec^2(x)$\\[0.5cm]
+            \item $\cot(x)$\\[0.5cm]
+            $\cot'(x)=-\csc^2(x)$\\[0.5cm]
+            \item $\sec(x)$\\[0.5cm]
+            $\sec'(x)=\sec(x)\tan(x)$\\[0.5cm]
+            \item $\csc(x)$\\[0.5cm]
+            $\csc'(x)=-\csc(x)\cot(x)$\\[0.5cm]
+        \end{enumerate}
+        \switchcolumn
+        \begin{enumerate} \setcounter{enumi}{6}
+            \item $\sin^{-1}(x)$\\[0.5cm]
+            $\sin^{-1}(x)=\dfrac{1}{\sqrt{1-x^2}}$\\[0.5cm]
+            \item $\cos^{-1}(x)$\\[0.5cm]
+            $\cos^{-1}(x)=-\dfrac{1}{\sqrt{1-x^2}}$\\[0.5cm]
+            \item $\tan^{-1}(x)$\\[0.5cm]
+            $\tan^{-1}(x)=\dfrac{1}{1+x^2}$\\[0.5cm]
+            \item $\cot^{-1}(x)$\\[0.5cm]
+            $\cot^{-1}(x)=-\dfrac{1}{1+x^2}$\\[0.5cm]
+            \item $\sec^{-1}(x)$\\[0.5cm]
+            $\sec^{-1}(x)=\dfrac{1}{|x|\sqrt{x^2-1}}$\\[0.5cm]
+            \item $\csc^{-1}(x)$\\[0.5cm]
+            $\csc^{- 1}(x)=-\dfrac{1}{|x|\sqrt{x^2-1}}$\\[0.5cm]
+        \end{enumerate}
+
+
 
 % Referencias
     \renewcommand\refname{\large\textbf{Referencias}}
