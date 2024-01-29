@@ -1,70 +1,70 @@
 \babel@toc {spanish}{}\relax 
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{Actividades en Clase}{1}{section*.3}%
-\contentsline {subsection}{Matrices y Determinantes}{1}{section*.4}%
-\contentsline {subsubsection}{Que es una matriz?}{1}{section*.5}%
-\contentsline {subsubsection}{Dimensiones de una matriz}{1}{section*.7}%
-\contentsline {subsubsection}{Tipos de Matrices}{2}{section*.8}%
-\contentsline {paragraph}{Matriz Fila (Vector Fila)}{2}{section*.9}%
-\contentsline {paragraph}{Matriz Columna (Vector Columna)}{2}{section*.10}%
-\contentsline {paragraph}{Matriz Nula}{2}{section*.11}%
-\contentsline {paragraph}{Matriz Cuadrada}{2}{section*.12}%
-\contentsline {subparagraph}{\relax }{2}{section*.14}%
-\contentsline {paragraph}{Diagonal Mayor}{2}{section*.15}%
-\contentsline {paragraph}{Diagonal Menor}{2}{section*.16}%
-\contentsline {paragraph}{Traza}{2}{section*.17}%
-\contentsline {subparagraph}{\relax }{3}{section*.19}%
-\contentsline {paragraph}{Triangular Superior}{3}{section*.20}%
-\contentsline {paragraph}{Triangular Inferior}{3}{section*.21}%
-\contentsline {paragraph}{Matriz Diagonal}{3}{section*.22}%
-\contentsline {paragraph}{Matriz identidad o unidad}{3}{section*.23}%
-\contentsline {paragraph}{Matriz Escalar}{4}{section*.24}%
-\contentsline {subsubsection}{Suma de Matrices}{4}{section*.25}%
-\contentsline {subsubsection}{Resta de Matrices}{4}{section*.27}%
-\contentsline {subsubsection}{Producto De Una Matriz Por Un Escalar/Real}{5}{section*.29}%
-\contentsline {subsubsection}{Multiplicación de Matrices}{5}{section*.31}%
-\contentsline {subsubsection}{Determinantes}{6}{section*.32}%
-\contentsline {paragraph}{Determinante 2x2}{6}{section*.33}%
-\contentsline {paragraph}{Determinante 3x3 - Regla de Sarrus}{6}{section*.34}%
-\contentsline {subsubsection}{Matriz Transpuesta}{6}{section*.36}%
-\contentsline {subsubsection}{Igualdad de Matrices}{7}{section*.37}%
-\contentsline {subsubsection}{Producto de un Escalar por un Determinante}{7}{section*.39}%
-\contentsline {subsubsection}{Matriz Adjunta}{8}{section*.40}%
-\contentsline {subsubsection}{Menor de una Matriz}{8}{section*.42}%
-\contentsline {paragraph}{Cofactor}{9}{section*.43}%
-\contentsline {subsubsection}{Calculo del determinante por Cofactores}{9}{section*.45}%
-\contentsline {subsubsection}{Matriz inversa}{11}{section*.46}%
-\contentsline {paragraph}{Propiedades relevantes}{11}{section*.47}%
-\contentsline {subsection}{Funciones Trigonométricas}{12}{section*.48}%
-\contentsline {subsubsection}{Geométricas}{12}{section*.49}%
-\contentsline {paragraph}{Tipos de Angulos}{12}{section*.50}%
-\contentsline {paragraph}{Clasificacion de Triangulos}{12}{section*.51}%
-\contentsline {subsubsection}{Trigonométricas}{14}{section*.52}%
-\contentsline {paragraph}{Teorema de Pitágoras}{15}{section*.53}%
-\contentsline {paragraph}{Razones Trigonométricas}{15}{section*.54}%
-\contentsline {paragraph}{Resolución de Triángulos Rectángulos}{16}{section*.55}%
-\contentsline {subsubsection}{Ley de Senos y Cosenos}{16}{section*.56}%
-\contentsline {paragraph}{Ley de Senos}{16}{section*.57}%
-\contentsline {paragraph}{Ley de Cosenos}{16}{section*.58}%
-\contentsline {paragraph}{Resolucion de un Triangulo Oblicuangulo}{17}{section*.59}%
-\contentsline {subsubsection}{Funciones}{18}{section*.60}%
-\contentsline {subsubsection}{Signos de las funciones trigonométricas}{19}{section*.61}%
-\contentsline {subsubsection}{Identidades Trigonométricas}{20}{section*.62}%
-\contentsline {paragraph}{Identidades Reciprocas}{20}{section*.63}%
-\contentsline {paragraph}{Angulos dobles}{20}{section*.65}%
-\contentsline {paragraph}{Ejemplo:}{20}{section*.66}%
-\contentsline {subsection}{Introduccion a los limites}{21}{section*.67}%
-\contentsline {subsubsection}{Ecuación del limite de una funcion}{21}{section*.68}%
-\contentsline {subsubsection}{Ecuación de un limite}{21}{section*.69}%
-\contentsline {subsubsection}{Limite al infinito}{22}{section*.70}%
-\contentsline {subsubsection}{Limites Continuidad}{23}{section*.71}%
-\contentsline {subsection}{Derivadas}{24}{section*.72}%
-\contentsline {subsubsection}{Diferenciable}{24}{section*.73}%
-\contentsline {subsubsection}{Reglas de derivacion}{25}{section*.74}%
-\contentsline {subsubsection}{Derivadas de funciones trigonometricas}{26}{section*.75}%
-\contentsline {paragraph}{Ejemplo:}{26}{section*.77}%
-\contentsline {subsubsection}{Regla de la potencia para funciones}{26}{section*.78}%
-\contentsline {paragraph}{Ejemplo 1:}{27}{section*.79}%
-\contentsline {paragraph}{Ejemplo 2:}{27}{section*.80}%
-\contentsline {subsubsection}{Regla de la cadena}{27}{section*.81}%
-\contentsline {paragraph}{Ejemplo 1:}{27}{section*.82}%
+\contentsline {section}{Actividades en Clase}{1}{section*.2}%
+\contentsline {subsection}{Matrices y Determinantes}{1}{section*.3}%
+\contentsline {subsubsection}{Que es una matriz?}{1}{section*.4}%
+\contentsline {subsubsection}{Dimensiones de una matriz}{1}{section*.6}%
+\contentsline {subsubsection}{Tipos de Matrices}{2}{section*.7}%
+\contentsline {paragraph}{Matriz Fila (Vector Fila)}{2}{section*.8}%
+\contentsline {paragraph}{Matriz Columna (Vector Columna)}{2}{section*.9}%
+\contentsline {paragraph}{Matriz Nula}{2}{section*.10}%
+\contentsline {paragraph}{Matriz Cuadrada}{2}{section*.11}%
+\contentsline {subparagraph}{\relax }{2}{section*.13}%
+\contentsline {paragraph}{Diagonal Mayor}{2}{section*.14}%
+\contentsline {paragraph}{Diagonal Menor}{2}{section*.15}%
+\contentsline {paragraph}{Traza}{2}{section*.16}%
+\contentsline {subparagraph}{\relax }{2}{section*.18}%
+\contentsline {paragraph}{Triangular Superior}{3}{section*.19}%
+\contentsline {paragraph}{Triangular Inferior}{3}{section*.20}%
+\contentsline {paragraph}{Matriz Diagonal}{3}{section*.21}%
+\contentsline {paragraph}{Matriz identidad o unidad}{3}{section*.22}%
+\contentsline {paragraph}{Matriz Escalar}{3}{section*.23}%
+\contentsline {subsubsection}{Suma de Matrices}{4}{section*.24}%
+\contentsline {subsubsection}{Resta de Matrices}{4}{section*.26}%
+\contentsline {subsubsection}{Producto De Una Matriz Por Un Escalar/Real}{5}{section*.28}%
+\contentsline {subsubsection}{Multiplicación de Matrices}{5}{section*.30}%
+\contentsline {subsubsection}{Determinantes}{5}{section*.31}%
+\contentsline {paragraph}{Determinante 2x2}{6}{section*.32}%
+\contentsline {paragraph}{Determinante 3x3 - Regla de Sarrus}{6}{section*.33}%
+\contentsline {subsubsection}{Matriz Transpuesta}{6}{section*.35}%
+\contentsline {subsubsection}{Igualdad de Matrices}{6}{section*.36}%
+\contentsline {subsubsection}{Producto de un Escalar por un Determinante}{7}{section*.38}%
+\contentsline {subsubsection}{Matriz Adjunta}{8}{section*.39}%
+\contentsline {subsubsection}{Menor de una Matriz}{8}{section*.41}%
+\contentsline {paragraph}{Cofactor}{9}{section*.42}%
+\contentsline {subsubsection}{Calculo del determinante por Cofactores}{9}{section*.44}%
+\contentsline {subsubsection}{Matriz inversa}{11}{section*.45}%
+\contentsline {paragraph}{Propiedades relevantes}{11}{section*.46}%
+\contentsline {subsection}{Funciones Trigonométricas}{12}{section*.47}%
+\contentsline {subsubsection}{Geométricas}{12}{section*.48}%
+\contentsline {paragraph}{Tipos de Angulos}{12}{section*.49}%
+\contentsline {paragraph}{Clasificacion de Triangulos}{12}{section*.50}%
+\contentsline {subsubsection}{Trigonométricas}{14}{section*.51}%
+\contentsline {paragraph}{Teorema de Pitágoras}{15}{section*.52}%
+\contentsline {paragraph}{Razones Trigonométricas}{15}{section*.53}%
+\contentsline {paragraph}{Resolución de Triángulos Rectángulos}{16}{section*.54}%
+\contentsline {subsubsection}{Ley de Senos y Cosenos}{16}{section*.55}%
+\contentsline {paragraph}{Ley de Senos}{16}{section*.56}%
+\contentsline {paragraph}{Ley de Cosenos}{16}{section*.57}%
+\contentsline {paragraph}{Resolucion de un Triangulo Oblicuangulo}{16}{section*.58}%
+\contentsline {subsubsection}{Funciones}{18}{section*.59}%
+\contentsline {subsubsection}{Signos de las funciones trigonométricas}{19}{section*.60}%
+\contentsline {subsubsection}{Identidades Trigonométricas}{20}{section*.61}%
+\contentsline {paragraph}{Identidades Reciprocas}{20}{section*.62}%
+\contentsline {paragraph}{Angulos dobles}{20}{section*.64}%
+\contentsline {paragraph}{Ejemplo:}{20}{section*.65}%
+\contentsline {subsection}{Introduccion a los limites}{21}{section*.66}%
+\contentsline {subsubsection}{Ecuación del limite de una funcion}{21}{section*.67}%
+\contentsline {subsubsection}{Ecuación de un limite}{21}{section*.68}%
+\contentsline {subsubsection}{Limite al infinito}{22}{section*.69}%
+\contentsline {subsubsection}{Limites Continuidad}{23}{section*.70}%
+\contentsline {subsection}{Derivadas}{24}{section*.71}%
+\contentsline {subsubsection}{Diferenciable}{24}{section*.72}%
+\contentsline {subsubsection}{Reglas de derivacion}{25}{section*.73}%
+\contentsline {subsubsection}{Derivadas de funciones trigonometricas}{26}{section*.74}%
+\contentsline {paragraph}{Ejemplo:}{26}{section*.76}%
+\contentsline {subsubsection}{Regla de la potencia para funciones}{26}{section*.77}%
+\contentsline {paragraph}{Ejemplo 1:}{27}{section*.78}%
+\contentsline {paragraph}{Ejemplo 2:}{27}{section*.79}%
+\contentsline {subsubsection}{Regla de la cadena}{27}{section*.80}%
+\contentsline {paragraph}{Ejemplo 1:}{27}{section*.81}%

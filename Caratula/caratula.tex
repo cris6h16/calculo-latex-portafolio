@@ -1,12 +1,19 @@
 % Configuración del documento
-\documentclass[stu, 12pt, letterpaper, donotrepeattitle, floatsintext, natbib]{apa7}
+\documentclass[stu, 12pt, a4paper, donotrepeattitle, floatsintext, natbib]{apa7}
+%insertar imagenes en encabezados y pie de pagina
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\geometry{left=2.54cm, right=2.54cm, top=2.54cm, bottom=2.54cm}
+
+\pagestyle{fancy}
+\chead{\includegraphics[width=\textwidth]{encabezado}}
+\cfoot{\includegraphics[width=\textwidth]{pie}}
 
 % Codificación y idioma
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 
 % Gráficos y posicionamiento de figuras
-\usepackage{graphicx}
 \usepackage{float}
 
 % Matemáticas y color
@@ -30,6 +37,8 @@
 \selectlanguage{spanish}
 \newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\}
 
+
+
 % Portada
 \title{\Large Calculo Diferencial e Integral}
 \author{Cristian Herrera}
@@ -52,7 +61,7 @@
     \newpage
     %Fíguras
     \renewcommand{\listfigurename}{\largeÍndice de fíguras}
-    \listoffigures
+%    \listoffigures
     \newpage
     % Tablas
 % \renewcommand{\listtablename}{\largeÍndice de tablas}

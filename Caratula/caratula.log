@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.10)  28 JAN 2024 14:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.10)  29 JAN 2024 10:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1737,14 +1737,14 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-LaTeX Info: Redefining \. on input line 30.
-LaTeX Info: Redefining \% on input line 30.
+LaTeX Info: Redefining \. on input line 37.
+LaTeX Info: Redefining \% on input line 37.
 \c@NumberOfAuthors=\count351
 \c@NumberOfSuperscripts=\count352
 
 
 Class apa7 Warning: Deprecated: see documentation for \authorsaffiliations on i
-nput line 36.
+nput line 45.
 
 \c@NumberOfAffiliations=\count353
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
@@ -1760,24 +1760,24 @@ LaTeX Info: Redefining \% on input line 24.
 )
 \openout1 = `caratula.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
 \c@maskedRefs=\count355
  (C:\Program Files\MiKTeX\tex/latex/apacite\spanish.apc
 File: spanish.apc 2013/07/21 v6.03 apacite language file
@@ -1788,19 +1788,19 @@ LaTeX Info: Redefining \BHBI on input line 139.
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: letterpaper
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=469.75502pt
-* \textheight=650.43001pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* h-part:(L,W,R)=(72.2698pt, 452.96826pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 700.50723pt, 72.2698pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.96826pt
+* \textheight=700.50723pt
+* \oddsidemargin=-0.00018pt
+* \evensidemargin=-0.00018pt
+* \topmargin=-40.20018pt
 * \headheight=15.2pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -1839,7 +1839,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 42.
+Package hyperref Info: Link coloring OFF on input line 51.
  (caratula.out)
 (caratula.out)
 \@outlinefile=\write6
@@ -1851,38 +1851,61 @@ File: APA7spanish.txt 2021/08/08 v1.00 apa7 configuration for Spanish
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \. on input line 42.
-LaTeX Info: Redefining \% on input line 42.
-LaTeX Info: Redefining \celsius on input line 42.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 42.
+LaTeX Info: Redefining \. on input line 51.
+LaTeX Info: Redefining \% on input line 51.
+LaTeX Info: Redefining \celsius on input line 51.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 51.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 42.
-Package gensymb Info: Using \Omega for \ohm on input line 42.
+LaTeX Info: Redefining \ohm on input line 51.
+Package gensymb Info: Using \Omega for \ohm on input line 51.
 
 Package gensymb Warning: Not defining \micro.
 
-LaTeX Info: Command `\dddot' is already robust on input line 42.
-LaTeX Info: Command `\ddddot' is already robust on input line 42.
-LaTeX Info: Command `\overleftrightarrow' is already robust on input line 42.
-LaTeX Info: Command `\underrightarrow' is already robust on input line 42.
-LaTeX Info: Command `\underleftarrow' is already robust on input line 42.
-LaTeX Info: Command `\underleftrightarrow' is already robust on input line 42.
+LaTeX Info: Command `\dddot' is already robust on input line 51.
+LaTeX Info: Command `\ddddot' is already robust on input line 51.
+LaTeX Info: Command `\overleftrightarrow' is already robust on input line 51.
+LaTeX Info: Command `\underrightarrow' is already robust on input line 51.
+LaTeX Info: Command `\underleftarrow' is already robust on input line 51.
+LaTeX Info: Command `\underleftrightarrow' is already robust on input line 51.
+<encabezado.png, id=278, 1078.0275pt x 92.7465pt>
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 52.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+<pie.png, id=280, 1075.01625pt x 72.27pt>
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 52.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
 [1{C:/Users/Cristian/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Progr
 am Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
 
-] (caratula.toc
+ <./encabezado.png> <./pie.png>]
+(caratula.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
 .
-
-(C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
+ (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
@@ -1922,89 +1945,436 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write7
 \openout7 = `caratula.toc'.
 
- [2] (caratula.lof
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
-)
-\tf@lof=\write8
-\openout8 = `caratula.lof'.
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 61.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
 
 
-[3]
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 61.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
+[2]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 115.
+(Font)              <10.95> on input line 124.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 119.
+(Font)              <17.28> on input line 128.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 119.
+(Font)              <10> on input line 128.
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 136.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 136.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.127     \end{pmatrix}_{1\times n}\]
+l.136     \end{pmatrix}_{1\times n}\]
                                       [1{C:/Program Files/MiKTeX/fonts/enc/dvip
 s/lm/lm-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Pr
 ogram Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX/fo
-nts/enc/dvips/lm/lm-mathsy.enc}] [2] [3] [4]
-<matrix.png, id=364, 422.0568pt x 210.3057pt>
+nts/enc/dvips/lm/lm-mathsy.enc}]
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 206.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 206.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
+[2]
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 242.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 242.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
+[3]
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 300.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 300.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
+[4]
+<matrix.png, id=373, 422.0568pt x 210.3057pt>
 File: matrix.png Graphic file (type png)
 <use matrix.png>
-Package pdftex.def Info: matrix.png  used on input line 333.
+Package pdftex.def Info: matrix.png  used on input line 342.
 (pdftex.def)             Requested size: 211.02788pt x 105.15259pt.
- [5 <./matrix.png>]
-<sarrus.png, id=372, 642.4pt x 803.0pt>
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 376.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 376.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
+[5 <./matrix.png>]
+<sarrus.png, id=382, 642.4pt x 803.0pt>
 File: sarrus.png Graphic file (type png)
 <use sarrus.png>
-Package pdftex.def Info: sarrus.png  used on input line 383.
+Package pdftex.def Info: sarrus.png  used on input line 392.
 (pdftex.def)             Requested size: 160.59961pt x 200.74951pt.
-<sarrus2.png, id=373, 630.85687pt x 220.57407pt>
+<sarrus2.png, id=383, 630.85687pt x 220.57407pt>
 File: sarrus2.png Graphic file (type png)
 <use sarrus2.png>
-Package pdftex.def Info: sarrus2.png  used on input line 385.
+Package pdftex.def Info: sarrus2.png  used on input line 394.
 (pdftex.def)             Requested size: 315.42766pt x 110.28676pt.
 
-Overfull \hbox (30.27228pt too wide) in paragraph at lines 380--388
+Overfull \hbox (47.05904pt too wide) in paragraph at lines 389--397
 [][] 
  []
 
-[6 <./sarrus.png> <./sarrus2.png>] [7]
-Overfull \hbox (11.04755pt too wide) in paragraph at lines 513--530
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 451.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 451.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
+[6 <./sarrus.png> <./sarrus2.png>]
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 499.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 499.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
+[7]
+Overfull \hbox (27.8343pt too wide) in paragraph at lines 522--539
  [][] 
  []
 
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 588.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 588.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
 [8]
-Overfull \hbox (20.87201pt too wide) in paragraph at lines 585--605
+Overfull \hbox (37.65877pt too wide) in paragraph at lines 594--614
 [][]   [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--605
+Underfull \hbox (badness 10000) in paragraph at lines 594--614
 
  []
 
-<dc.png, id=392, 224.037pt x 142.131pt>
+<dc.png, id=405, 224.037pt x 142.131pt>
 File: dc.png Graphic file (type png)
 <use dc.png>
-Package pdftex.def Info: dc.png  used on input line 610.
+Package pdftex.def Info: dc.png  used on input line 619.
 (pdftex.def)             Requested size: 112.01822pt x 71.0653pt.
-[9 <./dc.png>] [10] [11] [12] [13] [14]
-Overfull \hbox (57.34138pt too wide) in paragraph at lines 951--951
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 647.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 647.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
+[9 <./dc.png>]
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 706.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 706.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
+[10]
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 718.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 718.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
+[11]
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 872.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 872.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
+[12]
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 889.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 889.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
+[13]
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 947.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 947.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
+[14]
+Overfull \hbox (62.37747pt too wide) in paragraph at lines 960--960
 [][]  
  []
 
 
-Overfull \hbox (4.84pt too wide) in paragraph at lines 999--999
+Overfull \hbox (11.5546pt too wide) in paragraph at lines 1008--1008
 [][]  
  []
+
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 1016.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 1016.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
 
 [15]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1052         }
+l.1061         }
                 \\[0.5cm]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2012,7 +2382,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \@genfrac ...egingroup #4\endgroup #2#3\relax #5}}
                                                   
-l.1052         }
+l.1061         }
                 \\[0.5cm]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2023,7 +2393,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <recently read> }
                  
-l.1052         }
+l.1061         }
                 \\[0.5cm]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2034,7 +2404,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1052         }
+l.1061         }
                 \\[0.5cm]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2042,7 +2412,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1052         }
+l.1061         }
                 \\[0.5cm]
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2053,7 +2423,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1052         }
+l.1061         }
                 \\[0.5cm]
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2064,7 +2434,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1055         }
+l.1064         }
                 
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2072,7 +2442,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \@genfrac ...egingroup #4\endgroup #2#3\relax #5}}
                                                   
-l.1055         }
+l.1064         }
                 
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2083,7 +2453,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <recently read> }
                  
-l.1055         }
+l.1064         }
                 
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2094,7 +2464,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1055         }
+l.1064         }
                 
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2102,7 +2472,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1055         }
+l.1064         }
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2113,7 +2483,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1055         }
+l.1064         }
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2128,48 +2498,69 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1063     \end{paracol}\\
+l.1072     \end{paracol}\\
                           [1cm]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 1077.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 1077.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
 [16]
-<visto.png, id=432, 66.2475pt x 59.62276pt>
+<visto.png, id=446, 66.2475pt x 59.62276pt>
 File: visto.png Graphic file (type png)
 <use visto.png>
-Package pdftex.def Info: visto.png  used on input line 1099.
+Package pdftex.def Info: visto.png  used on input line 1108.
 (pdftex.def)             Requested size: 6.62512pt x 5.96262pt.
-<mal.png, id=433, 65.043pt x 71.0655pt>
+<mal.png, id=447, 65.043pt x 71.0655pt>
 File: mal.png Graphic file (type png)
 <use mal.png>
-Package pdftex.def Info: mal.png  used on input line 1099.
+Package pdftex.def Info: mal.png  used on input line 1108.
 (pdftex.def)             Requested size: 6.50467pt x 7.10696pt.
 File: mal.png Graphic file (type png)
 <use mal.png>
-Package pdftex.def Info: mal.png  used on input line 1099.
+Package pdftex.def Info: mal.png  used on input line 1108.
 (pdftex.def)             Requested size: 6.50467pt x 7.10696pt.
 File: mal.png Graphic file (type png)
 <use mal.png>
-Package pdftex.def Info: mal.png  used on input line 1099.
+Package pdftex.def Info: mal.png  used on input line 1108.
 (pdftex.def)             Requested size: 6.50467pt x 7.10696pt.
 File: visto.png Graphic file (type png)
 <use visto.png>
-Package pdftex.def Info: visto.png  used on input line 1099.
+Package pdftex.def Info: visto.png  used on input line 1108.
 (pdftex.def)             Requested size: 6.62512pt x 5.96262pt.
 File: mal.png Graphic file (type png)
 <use mal.png>
-Package pdftex.def Info: mal.png  used on input line 1099.
+Package pdftex.def Info: mal.png  used on input line 1108.
 (pdftex.def)             Requested size: 6.50467pt x 7.10696pt.
 File: visto.png Graphic file (type png)
 <use visto.png>
-Package pdftex.def Info: visto.png  used on input line 1099.
+Package pdftex.def Info: visto.png  used on input line 1108.
 (pdftex.def)             Requested size: 6.62512pt x 5.96262pt.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1112         $\textbf{w \approx 4.4}
+l.1121         $\textbf{w \approx 4.4}
                                       $\\[2.5cm]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2177,7 +2568,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \textdef@ ...th {#1}\let \f@size #2\selectfont #3}
                                                   }
-l.1112         $\textbf{w \approx 4.4}
+l.1121         $\textbf{w \approx 4.4}
                                       $\\[2.5cm]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2188,7 +2579,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
                                                   
-l.1112         $\textbf{w \approx 4.4}
+l.1121         $\textbf{w \approx 4.4}
                                       $\\[2.5cm]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2199,7 +2590,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \text@ ...e {\textdef@ \displaystyle \f@size {#1}}
                                                   {\textdef@ \textstyle \f@s...
-l.1112         $\textbf{w \approx 4.4}
+l.1121         $\textbf{w \approx 4.4}
                                       $\\[2.5cm]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2210,7 +2601,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1112         $\textbf{w \approx 4.4}
+l.1121         $\textbf{w \approx 4.4}
                                       $\\[2.5cm]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2218,7 +2609,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \textdef@ ...th {#1}\let \f@size #2\selectfont #3}
                                                   }
-l.1112         $\textbf{w \approx 4.4}
+l.1121         $\textbf{w \approx 4.4}
                                       $\\[2.5cm]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2229,7 +2620,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
                                                   
-l.1112         $\textbf{w \approx 4.4}
+l.1121         $\textbf{w \approx 4.4}
                                       $\\[2.5cm]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2240,7 +2631,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \text@ ...xtstyle \f@size {\firstchoice@false #1}}
                                                   {\textdef@ \textstyle \sf@...
-l.1112         $\textbf{w \approx 4.4}
+l.1121         $\textbf{w \approx 4.4}
                                       $\\[2.5cm]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2251,7 +2642,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1112         $\textbf{w \approx 4.4}
+l.1121         $\textbf{w \approx 4.4}
                                       $\\[2.5cm]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2259,7 +2650,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \textdef@ ...th {#1}\let \f@size #2\selectfont #3}
                                                   }
-l.1112         $\textbf{w \approx 4.4}
+l.1121         $\textbf{w \approx 4.4}
                                       $\\[2.5cm]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2270,7 +2661,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
                                                   
-l.1112         $\textbf{w \approx 4.4}
+l.1121         $\textbf{w \approx 4.4}
                                       $\\[2.5cm]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2281,7 +2672,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \text@ ...tstyle \sf@size {\firstchoice@false #1}}
                                                   {\textdef@ \textstyle \ssf...
-l.1112         $\textbf{w \approx 4.4}
+l.1121         $\textbf{w \approx 4.4}
                                       $\\[2.5cm]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2292,7 +2683,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1112         $\textbf{w \approx 4.4}
+l.1121         $\textbf{w \approx 4.4}
                                       $\\[2.5cm]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2300,7 +2691,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \textdef@ ...th {#1}\let \f@size #2\selectfont #3}
                                                   }
-l.1112         $\textbf{w \approx 4.4}
+l.1121         $\textbf{w \approx 4.4}
                                       $\\[2.5cm]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2311,7 +2702,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
                                                   
-l.1112         $\textbf{w \approx 4.4}
+l.1121         $\textbf{w \approx 4.4}
                                       $\\[2.5cm]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2322,7 +2713,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \text@ ...style \ssf@size {\firstchoice@false #1}}
                                                   \check@mathfonts }
-l.1112         $\textbf{w \approx 4.4}
+l.1121         $\textbf{w \approx 4.4}
                                       $\\[2.5cm]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2333,7 +2724,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \text@ ...firstchoice@false #1}}\check@mathfonts }
                                                   
-l.1112         $\textbf{w \approx 4.4}
+l.1121         $\textbf{w \approx 4.4}
                                       $\\[2.5cm]
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2344,7 +2735,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
                                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2355,48 +2746,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
-                                                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
-                                                
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
-                                                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
-                                                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
                                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2407,7 +2757,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
                                                 
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2415,7 +2765,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
                                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2426,7 +2776,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
                                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2437,7 +2787,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
                                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2448,7 +2798,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
                                                 
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2456,7 +2806,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
                                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2467,7 +2817,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
                                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2478,7 +2828,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
                                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2489,7 +2839,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
                                                 
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2497,7 +2847,48 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
+                                                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
+                                                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
+                                                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
+                                                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
                                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2508,7 +2899,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing { inserted.
 <to be read again> 
                    $
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
                                                 
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -2518,7 +2909,7 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
                                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2529,7 +2920,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing { inserted.
 <to be read again> 
                    $
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
                                                 
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -2539,7 +2930,7 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
                                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2550,7 +2941,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing { inserted.
 <to be read again> 
                    $
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
                                                 
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -2560,7 +2951,7 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
                                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2571,7 +2962,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1112         $\textbf{w \approx 4.4}$\\[2.5cm]
+l.1121         $\textbf{w \approx 4.4}$\\[2.5cm]
                                                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2579,10 +2970,75 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[17 <./visto.png> <./mal.png>] [18]
-Overfull \hbox (8.06407pt too wide) in paragraph at lines 1190--1190
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 1137.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 1137.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
+[17 <./visto.png> <./mal.png>]
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 1193.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 1193.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
+[18]
+Overfull \hbox (10.8507pt too wide) in paragraph at lines 1199--1199
 []\T1/lmr/m/n/12 TODAS  
  []
+
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 1264.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 1264.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
 
 [19]
 
@@ -2592,7 +3048,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1266 ...    \paragraph{Identidades Reciprocas}\\
+l.1275 ...    \paragraph{Identidades Reciprocas}\\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2605,7 +3061,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1277 ...   \paragraph{Identidades Pitagoricas}\\
+l.1286 ...   \paragraph{Identidades Pitagoricas}\\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2618,7 +3074,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1284     \paragraph{Angulos dobles}\\
+l.1293     \paragraph{Angulos dobles}\\
                                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2631,17 +3087,38 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1291     \paragraph{Ejemplo:}\\
+l.1300     \paragraph{Ejemplo:}\\
                                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 1309.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 1309.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
 [20]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1305     \displaystyle
+l.1314     \displaystyle
                         \lim_{{x \to a}} L\\[0.5cm]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2653,7 +3130,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1305     \displaystyle\lim_{{x \to a}} L\\
+l.1314     \displaystyle\lim_{{x \to a}} L\\
                                             [0.5cm]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2662,7 +3139,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1305     \displaystyle\lim_{{x \to a}} L\\
+l.1314     \displaystyle\lim_{{x \to a}} L\\
                                             [0.5cm]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2670,7 +3147,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1307     Derecha: \displaystyle
+l.1316     Derecha: \displaystyle
                                  \lim_{{x \to a}^+} L_1\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2682,7 +3159,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1307 ...a: \displaystyle\lim_{{x \to a}^+} L_1\\
+l.1316 ...a: \displaystyle\lim_{{x \to a}^+} L_1\\
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2691,7 +3168,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1307 ...a: \displaystyle\lim_{{x \to a}^+} L_1\\
+l.1316 ...a: \displaystyle\lim_{{x \to a}^+} L_1\\
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2699,7 +3176,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1308     Izquierda: \displaystyle
+l.1317     Izquierda: \displaystyle
                                    \lim_{{x \to a}^-} L_2\\[0.5cm]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2711,7 +3188,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1308 ...a: \displaystyle\lim_{{x \to a}^-} L_2\\
+l.1317 ...a: \displaystyle\lim_{{x \to a}^-} L_2\\
                                                   [0.5cm]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2720,38 +3197,125 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1308 ...a: \displaystyle\lim_{{x \to a}^-} L_2\\
+l.1317 ...a: \displaystyle\lim_{{x \to a}^-} L_2\\
                                                   [0.5cm]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-<lim.png, id=458, 178.266pt x 171.039pt>
+<lim.png, id=473, 178.266pt x 171.039pt>
 File: lim.png Graphic file (type png)
 <use lim.png>
-Package pdftex.def Info: lim.png  used on input line 1322.
+Package pdftex.def Info: lim.png  used on input line 1331.
 (pdftex.def)             Requested size: 178.26555pt x 171.03857pt.
-[21 <./lim.png>] [22]
-Overfull \hbox (6.90286pt too wide) in paragraph at lines 1364--1365
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 1345.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 1345.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
+[21 <./lim.png>]
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 1359.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 1359.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
+[22]
+Overfull \hbox (9.42076pt too wide) in paragraph at lines 1373--1374
 []$\OMS/lmsy/m/n/12 9 \OT1/lmr/m/n/12 = 
  []
 
 
-Overfull \hbox (38.15765pt too wide) in paragraph at lines 1366--1367
+Overfull \hbox (40.8436pt too wide) in paragraph at lines 1375--1376
 []$[] \OML/lmm/m/it/12 f\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 x\OT1/lmr/m/n/12 ) =$
   
  []
 
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 1387.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 1387.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
 [23]
-<derivative.png, id=482, 803.0pt x 889.3225pt>
+<derivative.png, id=497, 803.0pt x 889.3225pt>
 File: derivative.png Graphic file (type png)
 <use derivative.png>
-Package pdftex.def Info: derivative.png  used on input line 1383.
+Package pdftex.def Info: derivative.png  used on input line 1392.
 (pdftex.def)             Requested size: 160.59715pt x 177.86134pt.
- [24 <./derivative.png>]
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 1419.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 1419.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
+[24 <./derivative.png>]
 ! Missing { inserted.
 <to be read again> 
                    \def 
-l.1430         $y=x^\dfrac
+l.1439         $y=x^\dfrac
                           {3}{2}$\\[0.5cm]
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -2761,13 +3325,34 @@ so that I will find a matching right brace soon.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1430         $y=x^\dfrac{3}{2}$
+l.1439         $y=x^\dfrac{3}{2}$
                                  \\[0.5cm]
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
+
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 1453.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 1453.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
 
 [25]
 
@@ -2777,11 +3362,45 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1477     \paragraph{Ejemplo:}\\
+l.1486     \paragraph{Ejemplo:}\\
                                  [0.5cm]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1498     \paragraph{Ejemplo 1:}\\
+                                   [0.5cm]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 1500.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
+
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 1500.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
 
 [26]
 
@@ -2791,7 +3410,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1489     \paragraph{Ejemplo 1:}\\
+l.1503     \paragraph{Ejemplo 2:}\\
                                    [0.5cm]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2804,29 +3423,39 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1494     \paragraph{Ejemplo 2:}\\
+l.1513     \paragraph{Ejemplo 1:}\\
                                    [0.5cm]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: There's no line here to end.
+Class apa7 Warning: \bibliographystyle command ignored on input line 1520.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1504     \paragraph{Ejemplo 1:}\\
-                                   [0.5cm]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+AED endfloat: Processing end Figures and Tables
+File: encabezado.png Graphic file (type png)
+<use encabezado.png>
+Package pdftex.def Info: encabezado.png  used on input line 1522.
+(pdftex.def)             Requested size: 452.96826pt x 38.97025pt.
 
 
-Class apa7 Warning: \bibliographystyle command ignored on input line 1511.
+Package fancyhdr Warning: \headheight is too small (15.2pt): 
+(fancyhdr)                Make it at least 43.32028pt, for example:
+(fancyhdr)                \setlength{\headheight}{43.32028pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-AED endfloat: Processing end Figures and Tables [27] (caratula.aux
+(fancyhdr)                \addtolength{\topmargin}{-28.12029pt}.
+
+File: pie.png Graphic file (type png)
+<use pie.png>
+Package pdftex.def Info: pie.png  used on input line 1522.
+(pdftex.def)             Requested size: 452.96826pt x 30.45132pt.
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 34.80136pt, for example:
+(fancyhdr)                \setlength{\footskip}{34.80136pt}.
+
+[27] (caratula.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 LaTeX Info: Redefining \. on input line 24.
@@ -2838,37 +3467,92 @@ L3 programming layer <2023-08-29>
  ***********
 
 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
 Package rerunfilecheck Warning: File `caratula.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `caratula.out':
-(rerunfilecheck)             Before: B78F19F7B9C1F9061F9166AA76DB1515;10817
-(rerunfilecheck)             After:  F562684CFC0ACA7E9C66040555FEDDF4;10927.
+(rerunfilecheck)             Before: F562684CFC0ACA7E9C66040555FEDDF4;10927
+(rerunfilecheck)             After:  E81F5F9A8A03326C7A891FB54C02AF7F;10926.
  ) 
 Here is how much of TeX's memory you used:
- 27742 strings out of 475248
- 502031 string characters out of 5767618
- 1942785 words of memory out of 5000000
- 48642 multiletter control sequences out of 15000+600000
+ 27769 strings out of 475248
+ 502364 string characters out of 5767618
+ 1943785 words of memory out of 5000000
+ 48661 multiletter control sequences out of 15000+600000
  664696 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,17n,103p,417b,766s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/
-Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/
-fonts/type1/public/lm/lmbxi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/l
-m/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Pro
-gram Files/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX/fon
-ts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lm
-mi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Fi
-les/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1
-/public/lm/lmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:
-/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX
-/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/l
-m/lmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on caratula.pdf (31 pages, 491734 bytes).
+ 99i,17n,103p,438b,766s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{section*.82} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section*.75} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section*.63} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section*.43} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section*.40} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section*.37} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section*.34} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section*.29} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section*.27} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section*.25} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section*.17} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section*.12} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section*.5} has been referenced but does not exist,
+ replaced by a fixed one
+
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Pr
+ogram Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fo
+nts/type1/public/lm/lmbxi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/
+lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Progr
+am Files/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX/fonts
+/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi
+8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program File
+s/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/p
+ublic/lm/lmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/P
+rogram Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/f
+onts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/
+lmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
+Output written on caratula.pdf (30 pages, 591746 bytes).
 PDF statistics:
- 610 PDF objects out of 1000 (max. 8388607)
- 130 named destinations out of 1000 (max. 500000)
- 589 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 626 PDF objects out of 1000 (max. 8388607)
+ 141 named destinations out of 1000 (max. 500000)
+ 607 words of extra memory for PDF output out of 10000 (max. 10000000)
 
